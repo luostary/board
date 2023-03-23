@@ -1,3 +1,5 @@
 /oc-content/uploads/0/*
 /oc-content/uploads/temp/*
 /oc-includes/vendor/*
+/dockerTender/*
+/.idea/*
