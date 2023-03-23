@@ -1,0 +1,74 @@
+/* content */
+
+#carousel {margin-bottom: 18px;background-color: #fcf8e3;border: 1px solid #fbeed5;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin-left:5px;margin-top:10px;margin-right:10px;float:right;background-color:#FAFAFA;border-color:#FAFAFA;border: 1px solid #DFDFDF;width: <?php echo $width; ?>px; }
+.shadowblock { padding:10px; background-color:#E9F5F9; background-repeat: repeat-x; background-position:top; border:1px solid #fff; -khtml-border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+.content_res .shadowblockdir { /*height:170px;*/ padding:8px 5px 5px;background-color:#E9F5F9 ; background-repeat: repeat-x; background-position:top; border:1px solid #fff; -khtml-border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+
+.cover-left {position:absolute;bottom:4px;left:0;width:8px;height:200px;background:url('<?php echo osc_base_url() . 'oc-content/plugins/carousel_for_osclass/images/cover-left.png'; ?>') no-repeat top center;z-index:9;}
+.cover-right {position:absolute;bottom:4px;right:0;width:8px;height:200px;background:url('<?php echo osc_base_url() . 'oc-content/plugins/carousel_for_osclass/images/cover-right.png'; ?>') no-repeat top center;z-index:9;}
+
+/* featured listings homepage carousel */
+.carouselSlider #hide_a {float: left;height: 130px;width: 182px;overflow: hidden;display: block;border:1px dotted #999999;} 
+#list { /*width:698px;*/  margin:0 auto; height:<?php echo $height; ?>px; z-index:0;}
+.carouselSlider { float:left;  left:-5000px;  margin-left:0px;  position:relative; height: <?php echo $height; ?>px;  visibility:hidden; width: 170px;}
+.carouselSlider .title {font-size:13px;color:#6A6A6A;font-weight:bold;margin:15px 0 10px 10px;}
+.carouselSlider .title .fa {color:#333;}
+.carouselSlider ul li { padding:0px; margin:2px 8px;margin-bottom:5px; height:<?php echo $Sheight; ?>px;  width:<?php echo $Swidth; ?>px; text-align:left;}
+.carouselSlider ul li a {font-weight:bold;font-size:14px;color:#444;text-decoration:none;}
+.carouselSlider ul li a.c-title {float:left;width:100%;clear:both;padding:0 2px;line-height:18px;height:36px;overflow:hidden;text-align:left;margin:1px 0 0 0;}
+.carouselSlider ul li a:hover {text-decoration:underline;}
+.carouselSlider ul li:hover { background-color:<?php echo $hover_color; ?>; }
+.carouselSlider ul li img { cursor:pointer;width:180px;height:auto;float:left;}
+span.price_sm {background:#9CAF1E;padding:2px 4px;color:#fff;font-size:14px;float:right;font-weight:bold;margin-top:-21px;margin-right:1px;display:block}
+span.feat_left { float:center; text-align:center; width:90px; }
+span.feat_left a.preview img:hover {opacity:0.6;}
+#list li p {display:block; margin:0 0 0 62px; text-shadow:0 1px 0 #fff;white-space: pre-wrap; white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ word-wrap: break-word; /* Internet Explorer 5.5+ */}
+span.feat_left img.preview { border:1px solid #CCC;  float:left;  margin:3px 10px 0 0; padding:2px; -moz-box-shadow: 1px 1px 4px #dbdbdb; -webkit-box-shadow: 1px 1px 4px #b7b7b7; box-shadow: 1px 1px 4px #b7b7b7;-khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.prevCarousel { cursor:pointer;  float:left; padding-top:44px;
+	 position: relative;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+	 background: transparent url(<?php echo osc_base_url() . 'oc-content/plugins/carousel_for_osclass/images/prev-horizontal.png'; ?>) no-repeat 0 0;
+	 }
+
+.prevCarousel:hover {
+	background-position: -32px 0;
+}
+
+.prevCarousel:active {
+	background-position: -64px 0;	
+}
+
+.nextCarousel { cursor:pointer;  float:right; padding-top:44px;
+	position: relative;
+	top: 43px;
+	right: 5px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background: transparent url(<?php echo osc_base_url() . 'oc-content/plugins/carousel_for_osclass/images/next-horizontal.png'; ?>) no-repeat 0 0;
+}
+
+.nextCarousel:hover {
+	background-position: -32px 0;
+}
+
+.nextCarousel:active {
+	background-position: -64px 0;	
+}
+
+#premium_img {
+     background: url(<?php echo osc_base_url() . 'oc-content/plugins/carousel_for_osclass/images/featured.png'; ?>);
+     position: absolute;
+     height: 60px;
+     width: 60px;
+}
+
+.noSlides {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 20px;
+}

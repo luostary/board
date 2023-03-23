@@ -1,0 +1,1608 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru_RU\n"
+"Language-Team: Osclass Core\n"
+"Last-Translator: Administrator <luostary@bk.ru>\n"
+"PO-Revision-Date: 2023-02-19 00:33:13\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Domain: sofia\n"
+"X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;_e;_m;_n;_mn\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../oc-content/themes/sofia/404.php:14
+msgid "Page not found"
+msgstr ""
+
+#: ../oc-content/themes/sofia/alert-form.php:6
+msgid "You have sucessfully subscribed to the alert"
+msgstr ""
+
+#: ../oc-content/themes/sofia/alert-form.php:7
+#: ../oc-content/themes/sofia/user-change_email.php:23
+msgid "Invalid email address"
+msgstr ""
+
+#: ../oc-content/themes/sofia/alert-form.php:8
+msgid "There was a problem with the alert"
+msgstr ""
+
+#: ../oc-content/themes/sofia/alert-form.php:39
+msgid "Subscribe to this search"
+msgstr "Подписка на результаты поиска"
+
+#: ../oc-content/themes/sofia/alert-form.php:55
+msgid "Subscribe now"
+msgstr "Подписаться"
+
+#: ../oc-content/themes/sofia/contact.php:16
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+#: ../oc-content/themes/sofia/contact.php:22
+msgid "Subject"
+msgstr "Тема"
+
+#: ../oc-content/themes/sofia/contact.php:22
+#: ../oc-content/themes/sofia/contact.php:24
+#: ../oc-content/themes/sofia/item-contact.php:33
+#: ../oc-content/themes/sofia/item.php:350
+#: ../oc-content/themes/sofia/user-public-profile.php:172
+msgid "optional"
+msgstr "Не обязательно"
+
+#: ../oc-content/themes/sofia/contact.php:23
+#: ../oc-content/themes/sofia/item-contact.php:34
+#: ../oc-content/themes/sofia/item-send-friend.php:40
+#: ../oc-content/themes/sofia/item.php:160
+#: ../oc-content/themes/sofia/item.php:352
+#: ../oc-content/themes/sofia/user-public-profile.php:173
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../oc-content/themes/sofia/contact.php:24
+#: ../oc-content/themes/sofia/item-contact.php:30
+#: ../oc-content/themes/sofia/item-send-friend.php:34
+#: ../oc-content/themes/sofia/item.php:348
+#: ../oc-content/themes/sofia/user-public-profile.php:170
+msgid "Your name"
+msgstr "Ваше Имя"
+
+#: ../oc-content/themes/sofia/contact.php:25
+#: ../oc-content/themes/sofia/item-contact.php:31
+#: ../oc-content/themes/sofia/item-send-friend.php:35
+#: ../oc-content/themes/sofia/item.php:349
+#: ../oc-content/themes/sofia/user-public-profile.php:171
+msgid "Your e-mail address"
+msgstr "Ваш e-mail адрес"
+
+#: ../oc-content/themes/sofia/contact.php:32
+#: ../oc-content/themes/sofia/item-send-friend.php:47
+#: ../oc-content/themes/sofia/item.php:361
+#: ../oc-content/themes/sofia/user-public-profile.php:190
+msgid "Send"
+msgstr "Отправить"
+
+#: ../oc-content/themes/sofia/contact.php:39
+msgid "How to contact us"
+msgstr "Как связаться с нами"
+
+#: ../oc-content/themes/sofia/contact.php:41
+#: ../oc-content/themes/sofia/user-login.php:34
+#: ../oc-content/themes/sofia/user-register.php:42
+msgid "If you are seller..."
+msgstr "Если Вы продавец"
+
+#: ../oc-content/themes/sofia/contact.php:42
+msgid "If you are intrested in cooperations, do not hestitate to contact us"
+msgstr "Если вы заинтересованы в сотрудничестве, не стесняйтесь обращаться к нам"
+
+#: ../oc-content/themes/sofia/contact.php:43
+msgid "If you are intrested in advertisement on our site, contact us on info@info.com"
+msgstr "Если Вас интересует реклама на нашем сайте, свяжитесь с нами по почте info@info.com"
+
+#: ../oc-content/themes/sofia/contact.php:44
+msgid "If you forgot login details, use \"forgot password\" form"
+msgstr "Если вы забыли пароль, используйте форму \"Забыл пароль\""
+
+#: ../oc-content/themes/sofia/contact.php:47
+#: ../oc-content/themes/sofia/user-login.php:40
+#: ../oc-content/themes/sofia/user-register.php:47
+msgid "If you are byuer..."
+msgstr "Если Вы покупатель"
+
+#: ../oc-content/themes/sofia/contact.php:48
+msgid "If you need more informations about seller, we can provide only those they are online"
+msgstr "Если вам нужна дополнительная информация о продавце, мы можем предоставить только ту, которая находится в открытых источниках"
+
+#: ../oc-content/themes/sofia/contact.php:49
+msgid "If you want to contact seller of listing that has expired, we can not give you any informations about seller"
+msgstr "Если вы хотите связаться с продавцом объявления, срок действия которого истек, мы не можем предоставить вам какую-либо информацию о продавце"
+
+#: ../oc-content/themes/sofia/contact.php:50
+msgid "If you were robbed, contact police and we will provide all informations to police"
+msgstr "Если вы стали жертвой мошенничества, обратитесь в полицию, и мы предоставим всю информацию в полицию"
+
+#: ../oc-content/themes/sofia/footer.php:9
+msgid "Share us on Facebook"
+msgstr ""
+
+#: ../oc-content/themes/sofia/footer.php:10
+msgid "Tweet us"
+msgstr ""
+
+#: ../oc-content/themes/sofia/footer.php:11
+msgid "Promote us on Google+"
+msgstr ""
+
+#: ../oc-content/themes/sofia/footer.php:13
+msgid "Contact"
+msgstr "Контакт"
+
+#: ../oc-content/themes/sofia/functions.php:181
+msgid "Select a region..."
+msgstr "Выберите регион..."
+
+#: ../oc-content/themes/sofia/functions.php:182
+msgid "Select a region"
+msgstr "Выберите регион"
+
+#: ../oc-content/themes/sofia/functions.php:238
+msgid "Theme settings updated correctly"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:251
+msgid "Banner settings updated correctly"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:273
+msgid "Theme layout settings updated correctly"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:283
+msgid "The logo image has been uploaded correctly"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:285
+#: ../oc-content/themes/sofia/functions.php:288
+msgid "An error has occurred, please try again"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:296
+msgid "The logo image has been removed"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:298
+msgid "Image not found"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:307
+#: ../oc-content/themes/sofia/admin/header.php:3
+msgid "Header logo"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:308
+msgid "Theme settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:326
+msgid "ie. PHP Programmer"
+msgstr ""
+
+#: ../oc-content/themes/sofia/functions.php:327
+msgid "info@info.com"
+msgstr ""
+
+#: ../oc-content/themes/sofia/head.php:26
+msgid "No file selected"
+msgstr ""
+
+#: ../oc-content/themes/sofia/head.php:27
+msgid "Choose File"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:17
+#: ../oc-content/themes/sofia/header.php:223
+#: ../oc-content/themes/sofia/main.php:60
+msgid "Publish your ad for free"
+msgstr "Добавить объявление"
+
+#: ../oc-content/themes/sofia/header.php:32
+#: ../oc-content/themes/sofia/header.php:35
+msgid "Location not saved"
+msgstr "Местоположение не сохранено"
+
+#: ../oc-content/themes/sofia/header.php:47
+msgid "Change location"
+msgstr "Сменить метоположение"
+
+#: ../oc-content/themes/sofia/header.php:56
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:61
+msgid "My account"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:65
+msgid "Logout"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:69
+#: ../oc-content/themes/sofia/header.php:74
+#: ../oc-content/themes/sofia/header.php:88
+#: ../oc-content/themes/sofia/item.php:325
+msgid "Login"
+msgstr "Войти"
+
+#: ../oc-content/themes/sofia/header.php:81
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../oc-content/themes/sofia/header.php:94
+#: ../oc-content/themes/sofia/item-edit.php:185
+#: ../oc-content/themes/sofia/item-post.php:189
+#: ../oc-content/themes/sofia/item.php:157
+#: ../oc-content/themes/sofia/item.php:262
+#: ../oc-content/themes/sofia/item.php:335
+#: ../oc-content/themes/sofia/user-login.php:18
+#: ../oc-content/themes/sofia/user-profile.php:48
+#: ../oc-content/themes/sofia/user-recover.php:18
+#: ../oc-content/themes/sofia/user-register.php:27
+msgid "E-mail"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:98
+#: ../oc-content/themes/sofia/user-login.php:19
+#: ../oc-content/themes/sofia/user-register.php:22
+msgid "Password"
+msgstr "Пароль"
+
+#: ../oc-content/themes/sofia/header.php:100
+#: ../oc-content/themes/sofia/user-login.php:21
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: ../oc-content/themes/sofia/header.php:101
+#: ../oc-content/themes/sofia/user-login.php:23
+msgid "Log in"
+msgstr "Войти"
+
+#: ../oc-content/themes/sofia/header.php:103
+#: ../oc-content/themes/sofia/user-login.php:26
+msgid "Forgot password?"
+msgstr "Забыл пароль?"
+
+#: ../oc-content/themes/sofia/header.php:120
+msgid "Language"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:142
+msgid "Back"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:144
+msgid "Select a location"
+msgstr ""
+
+#: ../oc-content/themes/sofia/header.php:177
+msgid "in"
+msgstr "в"
+
+#: ../oc-content/themes/sofia/item-contact.php:16
+#: ../oc-content/themes/sofia/item.php:287
+msgid "Contact seller"
+msgstr "Связь с продавцом"
+
+#: ../oc-content/themes/sofia/item-contact.php:24
+msgid "To (seller)"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-contact.php:25
+msgid "Listing"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-contact.php:33
+#: ../oc-content/themes/sofia/item.php:350
+#: ../oc-content/themes/sofia/user-public-profile.php:172
+msgid "Phone number"
+msgstr "Телефон"
+
+#: ../oc-content/themes/sofia/item-contact.php:40
+msgid "Send message"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-edit.php:87
+#: ../oc-content/themes/sofia/item-post.php:94
+msgid "Publish a listing"
+msgstr "Опубликовать"
+
+#: ../oc-content/themes/sofia/item-edit.php:99
+#: ../oc-content/themes/sofia/item-post.php:104
+msgid "General Information"
+msgstr "Общая информация"
+
+#: ../oc-content/themes/sofia/item-edit.php:103
+#: ../oc-content/themes/sofia/item-post.php:108
+#: ../oc-content/themes/sofia/search.php:88
+msgid "Category"
+msgstr "Категория"
+
+#: ../oc-content/themes/sofia/item-edit.php:104
+#: ../oc-content/themes/sofia/item-post.php:109
+#: ../oc-content/themes/sofia/main.php:44
+#: ../oc-content/themes/sofia/search.php:113
+msgid "Select a category"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-edit.php:114
+#: ../oc-content/themes/sofia/item-post.php:119
+#: ../oc-content/themes/sofia/user-alerts.php:43
+msgid "Price"
+msgstr "Стоимость"
+
+#: ../oc-content/themes/sofia/item-edit.php:117
+#: ../oc-content/themes/sofia/item-post.php:122
+msgid "For <strong>\"Check with seller\"</strong> option leave blank"
+msgstr "Для опции \"Проверить у продавца\" оставьте пустым"
+
+#: ../oc-content/themes/sofia/item-edit.php:123
+#: ../oc-content/themes/sofia/item-post.php:127
+msgid "Photos"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-edit.php:137
+#: ../oc-content/themes/sofia/item-post.php:138
+msgid "Add new photo"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-edit.php:145
+#: ../oc-content/themes/sofia/item-post.php:146
+msgid "Listing Location"
+msgstr "Локация объекта"
+
+#: ../oc-content/themes/sofia/item-edit.php:150
+#: ../oc-content/themes/sofia/item-post.php:151
+#: ../oc-content/themes/sofia/item.php:82
+#: ../oc-content/themes/sofia/search.php:83
+#: ../oc-content/themes/sofia/user-profile.php:81
+msgid "Country"
+msgstr "Страна"
+
+#: ../oc-content/themes/sofia/item-edit.php:155
+#: ../oc-content/themes/sofia/item-post.php:157
+#: ../oc-content/themes/sofia/item.php:83
+#: ../oc-content/themes/sofia/search.php:84
+#: ../oc-content/themes/sofia/user-profile.php:85
+msgid "Region"
+msgstr "Регион"
+
+#: ../oc-content/themes/sofia/item-edit.php:160
+#: ../oc-content/themes/sofia/item-post.php:163
+#: ../oc-content/themes/sofia/item.php:84
+#: ../oc-content/themes/sofia/search.php:85
+#: ../oc-content/themes/sofia/user-profile.php:89
+msgid "City"
+msgstr "Город"
+
+#: ../oc-content/themes/sofia/item-edit.php:165
+#: ../oc-content/themes/sofia/item-post.php:169
+#: ../oc-content/themes/sofia/item.php:85
+#: ../oc-content/themes/sofia/user-profile.php:93
+#: ../oc-content/themes/sofia/user-public-profile.php:80
+msgid "Address"
+msgstr "Адрес"
+
+#: ../oc-content/themes/sofia/item-edit.php:173
+#: ../oc-content/themes/sofia/item-edit.php:197
+#: ../oc-content/themes/sofia/item-post.php:177
+#: ../oc-content/themes/sofia/item-post.php:201
+msgid "Seller's information"
+msgstr "Информация о продавце"
+
+#: ../oc-content/themes/sofia/item-edit.php:177
+#: ../oc-content/themes/sofia/item-post.php:181
+#: ../oc-content/themes/sofia/item.php:156
+#: ../oc-content/themes/sofia/item.php:243
+#: ../oc-content/themes/sofia/item.php:258
+#: ../oc-content/themes/sofia/item.php:330
+#: ../oc-content/themes/sofia/item.php:332
+#: ../oc-content/themes/sofia/user-profile.php:35
+#: ../oc-content/themes/sofia/user-register.php:21
+msgid "Name"
+msgstr "Имя"
+
+#: ../oc-content/themes/sofia/item-edit.php:181
+#: ../oc-content/themes/sofia/item-edit.php:201
+#: ../oc-content/themes/sofia/item-post.php:185
+#: ../oc-content/themes/sofia/item-post.php:205
+msgid "Mobile Phone"
+msgstr "Мобильный телефон"
+
+#: ../oc-content/themes/sofia/item-edit.php:192
+#: ../oc-content/themes/sofia/item-post.php:196
+msgid "Show e-mail on the listing page"
+msgstr "Показывать мой e-mail"
+
+#: ../oc-content/themes/sofia/item-edit.php:205
+#: ../oc-content/themes/sofia/item-post.php:208
+msgid "Change your mobile phone number"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-edit.php:222
+msgid "Update listing"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-edit.php:245
+#: ../oc-content/themes/sofia/item-post.php:244
+msgid "Click or Drag for upload images"
+msgstr "Кликните или перенесите сюда фото для загрузки"
+
+#: ../oc-content/themes/sofia/item-post.php:224
+msgid "Publish listing"
+msgstr "Опубликовать объявление"
+
+#: ../oc-content/themes/sofia/item-send-friend.php:17
+msgid "Send to a friend"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:26
+msgid "Item"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:38
+msgid "Friend's name"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:39
+msgid "Friend's e-mail address"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:53
+msgid "Why to use it"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:55
+msgid "Reason 1 ..."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:56
+msgid "Reason 2 ..."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:57
+msgid "Reason 3 ..."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:58
+msgid "Reason 4 ..."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:59
+msgid "Reason 5 ..."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item-send-friend.php:60
+msgid "Reason 6 ..."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:32
+msgid " in "
+msgstr " в "
+
+#: ../oc-content/themes/sofia/item.php:40
+msgid "spam"
+msgstr "спам"
+
+#: ../oc-content/themes/sofia/item.php:41
+msgid "misclassified"
+msgstr "неклассифиц."
+
+#: ../oc-content/themes/sofia/item.php:42
+msgid "duplicated"
+msgstr "дублируется"
+
+#: ../oc-content/themes/sofia/item.php:43
+msgid "expired"
+msgstr "истек срок"
+
+#: ../oc-content/themes/sofia/item.php:44
+msgid "offensive"
+msgstr "непристойно"
+
+#: ../oc-content/themes/sofia/item.php:49
+msgid "Add to watchlist"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:53
+msgid "Download PDF sheet of this listing"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:61
+msgid "Published date"
+msgstr "Опубликовано"
+
+#: ../oc-content/themes/sofia/item.php:62
+msgid "Modified date"
+msgstr "Изменено"
+
+#: ../oc-content/themes/sofia/item.php:66
+msgid "Edit item"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:74
+msgid " view"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:74
+msgid " views"
+msgstr " просмотров"
+
+#: ../oc-content/themes/sofia/item.php:78
+msgid "Details of listing"
+msgstr "Подробная информация"
+
+#: ../oc-content/themes/sofia/item.php:87
+msgid "Additional information"
+msgstr "Описание"
+
+#: ../oc-content/themes/sofia/item.php:120
+msgid "Comments"
+msgstr "Комментарии"
+
+#: ../oc-content/themes/sofia/item.php:129
+msgid "Profile picture"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:131
+msgid "by"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:135
+msgid "Delete your comment"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:135
+#: ../oc-content/themes/sofia/user-items.php:54
+#: ../oc-content/themes/sofia/user-profile.php:152
+msgid "Delete"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:146
+msgid "Leave your comment or feedback"
+msgstr "Оставить комментарий"
+
+#: ../oc-content/themes/sofia/item.php:159
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../oc-content/themes/sofia/item.php:166
+msgid "Send comment"
+msgstr "Отправить"
+
+#: ../oc-content/themes/sofia/item.php:175
+msgid "Image Gallery"
+msgstr "Галерея фотографий"
+
+#: ../oc-content/themes/sofia/item.php:179
+#: ../oc-content/themes/sofia/item.php:195
+msgid "Image"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:202
+msgid "View Gallery"
+msgstr "Просмотр"
+
+#: ../oc-content/themes/sofia/item.php:219
+#: ../oc-content/themes/sofia/item.php:226
+#: ../oc-content/themes/sofia/item.php:235
+msgid "No phone number"
+msgstr "Телефон не указан"
+
+#: ../oc-content/themes/sofia/item.php:236
+msgid "Click to show phone number"
+msgstr "Нажмите на телефон"
+
+#: ../oc-content/themes/sofia/item.php:249
+#: ../oc-content/themes/sofia/main.php:20
+msgid "listings"
+msgstr "объявлениях"
+
+#: ../oc-content/themes/sofia/item.php:254
+msgid "registered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:265
+msgid "Registered"
+msgstr "Создано"
+
+#: ../oc-content/themes/sofia/item.php:273
+#: ../oc-content/themes/sofia/user-public-profile.php:87
+msgid "Location"
+msgstr "Локация"
+
+#: ../oc-content/themes/sofia/item.php:274
+#: ../oc-content/themes/sofia/user-profile.php:97
+#: ../oc-content/themes/sofia/user-public-profile.php:94
+msgid "Website"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:293
+msgid "Send to friend"
+msgstr "Отправить другу"
+
+#: ../oc-content/themes/sofia/item.php:296
+#: ../oc-content/themes/sofia/main.php:110
+msgid "Advertising"
+msgstr "Реклама"
+
+#: ../oc-content/themes/sofia/item.php:311
+#: ../oc-content/themes/sofia/user-public-profile.php:160
+msgid "Contact publisher"
+msgstr "Связаться с пользователем"
+
+#: ../oc-content/themes/sofia/item.php:314
+msgid "The listing is expired. You can't contact the publisher."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:318
+msgid "It's your own listing, you can't contact the publisher."
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:322
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:326
+#: ../oc-content/themes/sofia/user-login.php:25
+msgid "Register for a free account"
+msgstr "Бесплатная регистрация аккаунта"
+
+#: ../oc-content/themes/sofia/item.php:338
+msgid "Tel"
+msgstr ""
+
+#: ../oc-content/themes/sofia/item.php:388
+msgid "Do not forget to tell you found this offer on"
+msgstr "Не забудьте сообщить что нашли это объявление на сайте"
+
+#: ../oc-content/themes/sofia/main.php:18
+msgid "Search in "
+msgstr "Поиск в "
+
+#: ../oc-content/themes/sofia/main.php:23
+msgid "Promote your listing"
+msgstr "Премиум объявления"
+
+#: ../oc-content/themes/sofia/main.php:28
+#: ../oc-content/themes/sofia/search.php:98
+msgid "Start your search there"
+msgstr "Начните поиск тут"
+
+#: ../oc-content/themes/sofia/main.php:47
+#: ../oc-content/themes/sofia/search.php:142
+msgid "Search"
+msgstr "Поиск"
+
+#: ../oc-content/themes/sofia/main.php:57
+msgid "Sell your used items"
+msgstr ""
+
+#: ../oc-content/themes/sofia/main.php:58
+msgid "You can advertise all types of industrial vehicles, trucks, machinery or vans. Used clothes as well as electronics. We offer unlimited advertising for free."
+msgstr ""
+
+#: ../oc-content/themes/sofia/main.php:59
+msgid "Free and unlimited Ads"
+msgstr ""
+
+#: ../oc-content/themes/sofia/main.php:67
+msgid "Latest Listings"
+msgstr "Последние"
+
+#: ../oc-content/themes/sofia/main.php:72
+msgid "No Latest Listings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/main.php:99
+#: ../oc-content/themes/sofia/user-public-profile.php:152
+msgid "See all offers"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search.php:22
+msgid "results"
+msgstr "результаты"
+
+#: ../oc-content/themes/sofia/search.php:23
+msgid "Search results"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search.php:29
+msgid "Switch to grid view"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search.php:31
+msgid "Switch to list view"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search.php:35
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: ../oc-content/themes/sofia/search.php:56
+msgid "All results"
+msgstr "Все результаты"
+
+#: ../oc-content/themes/sofia/search.php:57
+#: ../oc-content/themes/sofia/search_gallery.php:3
+#: ../oc-content/themes/sofia/search_list.php:54
+msgid "Personal"
+msgstr "Частные лица"
+
+#: ../oc-content/themes/sofia/search.php:58
+#: ../oc-content/themes/sofia/search_gallery.php:4
+#: ../oc-content/themes/sofia/search_list.php:55
+msgid "Company"
+msgstr "Организации"
+
+#: ../oc-content/themes/sofia/search.php:62
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "Нет результатов совпадения \"%s\""
+
+#: ../oc-content/themes/sofia/search.php:81
+msgid "Active filters"
+msgstr "Выбранные фильтры"
+
+#: ../oc-content/themes/sofia/search.php:92
+msgid "Minimum price"
+msgstr "Мин. стоимость"
+
+#: ../oc-content/themes/sofia/search.php:93
+msgid "Maximum price"
+msgstr "Макс. стоимость"
+
+#: ../oc-content/themes/sofia/search.php:110
+msgid "Search..."
+msgstr "Поиск..."
+
+#: ../oc-content/themes/sofia/search.php:117
+msgid "Enter city..."
+msgstr "Введите город..."
+
+#: ../oc-content/themes/sofia/search.php:121
+msgid "min"
+msgstr "мин."
+
+#: ../oc-content/themes/sofia/search.php:123
+msgid "max"
+msgstr "макс."
+
+#: ../oc-content/themes/sofia/search.php:128
+msgid "Listings with pictures only"
+msgstr "Объявления только с фото"
+
+#: ../oc-content/themes/sofia/search.php:154
+msgid "Related Categories"
+msgstr "Связанные категории"
+
+#: ../oc-content/themes/sofia/search.php:209
+#: ../oc-content/themes/sofia/search.php:225
+msgid "Selected"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search.php:209
+#: ../oc-content/themes/sofia/search.php:225
+msgid "Nothing selected, input was"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search_gallery.php:2
+#: ../oc-content/themes/sofia/search_list.php:53
+msgid "All"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search_gallery.php:7
+#: ../oc-content/themes/sofia/search_list.php:58
+msgid "All listings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search_list.php:6
+msgid "Premium listings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search_list.php:25
+#: ../oc-content/themes/sofia/user-dashboard.php:28
+msgid "TOP"
+msgstr ""
+
+#: ../oc-content/themes/sofia/search_list.php:38
+#: ../oc-content/themes/sofia/search_list.php:89
+#: ../oc-content/themes/sofia/user-items.php:59
+#: ../oc-content/themes/sofia/user-public-profile.php:139
+msgid "see more details"
+msgstr "подробности"
+
+#: ../oc-content/themes/sofia/search_list.php:39
+#: ../oc-content/themes/sofia/search_list.php:90
+#: ../oc-content/themes/sofia/user-items.php:61
+#: ../oc-content/themes/sofia/user-public-profile.php:140
+msgid "and"
+msgstr "и"
+
+#: ../oc-content/themes/sofia/search_list.php:41
+#: ../oc-content/themes/sofia/search_list.php:92
+#: ../oc-content/themes/sofia/user-items.php:63
+#: ../oc-content/themes/sofia/user-public-profile.php:142
+msgid "photos"
+msgstr "фото"
+
+#: ../oc-content/themes/sofia/search_list.php:41
+#: ../oc-content/themes/sofia/search_list.php:92
+#: ../oc-content/themes/sofia/user-items.php:63
+#: ../oc-content/themes/sofia/user-public-profile.php:142
+msgid "photo"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:13
+#: ../oc-content/themes/sofia/user-change_email.php:44
+#: ../oc-content/themes/sofia/user-change_password.php:13
+#: ../oc-content/themes/sofia/user-change_username.php:63
+#: ../oc-content/themes/sofia/user-custom.php:13
+#: ../oc-content/themes/sofia/user-dashboard.php:12
+#: ../oc-content/themes/sofia/user-items.php:13
+#: ../oc-content/themes/sofia/user-profile.php:19
+msgid "User account manager"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:21
+msgid "Your alerts"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:23
+msgid "You do not have any alerts yet"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:28
+msgid "Alert"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:28
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:28
+msgid "Delete this alert"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:42
+msgid "Publication date"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-alerts.php:49
+msgid "No listings fits to search/alert criteria"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_email.php:22
+msgid "Email: this field is required"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_email.php:50
+msgid "Change your e-mail"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_email.php:57
+msgid "Current e-mail"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_email.php:61
+msgid "New e-mail"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_email.php:65
+#: ../oc-content/themes/sofia/user-change_password.php:37
+#: ../oc-content/themes/sofia/user-change_username.php:86
+#: ../oc-content/themes/sofia/user-profile.php:105
+msgid "Update"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_password.php:19
+msgid "Change your password"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_password.php:25
+msgid "Current password"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_password.php:29
+#: ../oc-content/themes/sofia/user-forgot_password.php:21
+msgid "New password"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_password.php:33
+#: ../oc-content/themes/sofia/user-forgot_password.php:26
+msgid "Repeat new password"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_username.php:21
+msgid "Username: this field is required"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_username.php:46
+msgid "The username is available"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_username.php:48
+msgid "The username is NOT available"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_username.php:70
+msgid "Change your username"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_username.php:77
+#: ../oc-content/themes/sofia/user-profile.php:39
+msgid "Username"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-change_username.php:81
+msgid "WARNING: Once set, you will not be able to change your username again. Choose wisely."
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:18
+msgid "Hello"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:18
+msgid "welcome to your account"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:20
+msgid "Your latest listings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:22
+msgid "No listings have been added yet"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:32
+#: ../oc-content/themes/sofia/user-items.php:53
+msgid "Edit"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:34
+msgid "Activate"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:43
+msgid "You have"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:43
+msgid "alerts, you can check them in section"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:43
+msgid "Manage your alerts"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:50
+msgid "You profile is not complete!"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:51
+msgid "We found that your profile is still not complete! Take a minute and enter as much information as possible, this will help you sell your stuffs faster."
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:53
+msgid "No phone number was entered. You should enter at least 1 phone number to your mobile or land phone"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:54
+msgid "You did not entered your website"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:55
+msgid "Country was not entered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:56
+msgid "Region was not entered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:57
+msgid "City was not entered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:58
+msgid "Address was not entered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-dashboard.php:62
+msgid "Your profile is complete!"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-forgot_password.php:13
+#: ../oc-content/themes/sofia/user-recover.php:13
+msgid "Recover your password"
+msgstr "Восстановить пароль"
+
+#: ../oc-content/themes/sofia/user-forgot_password.php:29
+msgid "Change password"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-items.php:20
+msgid "Your listings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-items.php:21
+msgid "Post a new listing"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-items.php:24
+msgid "You don't have any listings yet"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-items.php:54
+msgid "Are you sure you want to delete this listing? This action cannot be undone."
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-login.php:13
+msgid "Access to your account"
+msgstr "Доступ в аккаунт"
+
+#: ../oc-content/themes/sofia/user-login.php:32
+msgid "Why to log in?"
+msgstr "Зачем входить в аккаунт?"
+
+#: ../oc-content/themes/sofia/user-login.php:35
+msgid "You can easily watch your items"
+msgstr "Вы можете легко просматривать свои объявления"
+
+#: ../oc-content/themes/sofia/user-login.php:36
+msgid "You can add new listings fast"
+msgstr "Вы можете быстро добавлять новые объявления"
+
+#: ../oc-content/themes/sofia/user-login.php:37
+msgid "You can manage your listings"
+msgstr "Вы можете управлять своими объявлениями"
+
+#: ../oc-content/themes/sofia/user-login.php:41
+#: ../oc-content/themes/sofia/user-register.php:48
+msgid "Subscribe to alerts"
+msgstr "Подпишитесь на оповещения"
+
+#: ../oc-content/themes/sofia/user-login.php:42
+msgid "Keep and share your favorite items"
+msgstr "Сохраняйте и делитесь своими любимыми объявлениями"
+
+#: ../oc-content/themes/sofia/user-login.php:43
+msgid "Fast contact with seller"
+msgstr "Быстрый контакт с продавцом"
+
+#: ../oc-content/themes/sofia/user-profile.php:26
+msgid "Update your profile"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:43
+msgid "Modify username"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:52
+msgid "Modify e-mail"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:53
+msgid "Modify password"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:57
+msgid "User type"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:61
+msgid "Mobile phone"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:65
+msgid "Phone"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:101
+msgid "Information"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:108
+msgid "Delete my account"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:119
+msgid "More information about you will help you to sell your stuffs"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:120
+msgid "Write just valid information"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:121
+msgid "If you save at least 1 phone number, your possible customers will get to you much faster"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:122
+msgid "You can choose if you are Company or Person"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:123
+msgid "If you have list of your products on own website, save it to your profile"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:128
+msgid "Delete account"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:131
+msgid "All your listings and alerts will be removed, this action can not be undone."
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-profile.php:155
+msgid "Cancel"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:36
+#, php-format
+msgid "%s's profile"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:40
+msgid "item"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:42
+msgid "items"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:49
+msgid "comment"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:51
+msgid "comments"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:58
+msgid "day registered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:60
+msgid "days registered"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:70
+msgid "Profile"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:74
+msgid "Full name"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:101
+msgid "Description"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:108
+msgid "Latest listings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:184
+msgid "Enter the words above"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-public-profile.php:186
+#: ../oc-content/themes/sofia/admin/settings.php:237
+msgid "Help"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-recover.php:20
+msgid "Send me a new password"
+msgstr "Отправьте мне новый пароль"
+
+#: ../oc-content/themes/sofia/user-recover.php:25
+msgid "If you lost password"
+msgstr "Если вы потеряли пароль"
+
+#: ../oc-content/themes/sofia/user-recover.php:27
+msgid "You will recieve new password in few minutes"
+msgstr "Вы получите новый пароль через несколько минут"
+
+#: ../oc-content/themes/sofia/user-recover.php:28
+msgid "You do not have to create new account"
+msgstr "Вам не нужно создавать новую учетную запись"
+
+#: ../oc-content/themes/sofia/user-register.php:14
+msgid "Register an account for free"
+msgstr "Зарегистрируйте аккаунт бесплатно"
+
+#: ../oc-content/themes/sofia/user-register.php:23
+msgid "Re-type password"
+msgstr "Повторить пароль"
+
+#: ../oc-content/themes/sofia/user-register.php:25
+msgid "Passwords don't match"
+msgstr ""
+
+#: ../oc-content/themes/sofia/user-register.php:35
+msgid "Create"
+msgstr "Создать"
+
+#: ../oc-content/themes/sofia/user-register.php:40
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: ../oc-content/themes/sofia/user-register.php:43
+msgid "We help you to sell your stuffs"
+msgstr "Мы поможем вам продать"
+
+#: ../oc-content/themes/sofia/user-register.php:44
+msgid "It is easy, free and fast"
+msgstr "легко, бесплатно и быстро"
+
+#: ../oc-content/themes/sofia/user-register.php:49
+msgid "Keep and share your favorite vehicles"
+msgstr "Сохраняйте и делитесь своими объявлениями"
+
+#: ../oc-content/themes/sofia/admin/functions.php:14
+#: ../oc-content/themes/sofia/admin/functions.php:23
+#: ../oc-content/themes/sofia/admin/settings.php:3
+msgid "Settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/functions.php:24
+msgid "Header"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/functions.php:38
+msgid "Report Bug"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/functions.php:39
+msgid "Support Forums"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/functions.php:40
+msgid "Contact Us"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/functions.php:82
+msgid "Add small image"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/functions.php:90
+msgid "Add large image"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:12
+msgid "Logo preview"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:23
+msgid "Remove"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:30
+msgid "No logo has been uploaded yet"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:40
+msgid "Logo upload"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:47
+msgid "When new logo is uploaded, do not forget to clean your browser cache (CTRL + R or CTRL + F5)"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:48
+msgid "The preferred size of the logo is 230x60px."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:49
+msgid "Following formats are allowed: png, gif, jpg"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:52
+msgid "Uploading another logo will overwrite the current logo."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:60
+msgid "Upload"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:67
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:68
+msgid "OSClass can't upload the logo image from the administration panel."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:69
+msgid "Please make the aforementioned image folder writable."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/header.php:75
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:9
+msgid "Plugins for this theme"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:10
+msgid "We have modified for you many plugins to fit theme design that will work without need of any modifications"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:11
+msgid "Plugins are not delivered in theme package, must be downloaded separately"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:12
+msgid "Download plugins"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:13
+msgid "upload and extract downloaded file <strong>sofia-plugins.zip</strong> into folder <strong>oc-content/plugins/</strong> on your hosting"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:14
+msgid "go to <strong>oc-admin > Plugins</strong> and install plugins you like"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:19
+msgid "General settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:26
+msgid "Search Placeholder"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:27
+msgid "Placeholder in search input"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:31
+msgid "Contact Email"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:32
+msgid "Email in footer"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:36
+msgid "Link in Footer"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:39
+msgid "When checked, link to Osclass will be shown in footer of your site"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:43
+msgid "Use Default Logo"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:46
+msgid "Use default logo in case no other logo has been uploaded yet"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:50
+msgid "Use Drag & Drop Image Uploader"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:53
+msgid "New drag & drop image uploader will be used instead of older one. Very suitable for mobile device."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:57
+msgid "Facebook Share Link"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:62
+msgid "Twitter Link"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:67
+msgid "Google Plus Link"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:74
+#: ../oc-content/themes/sofia/admin/settings.php:188
+#: ../oc-content/themes/sofia/admin/settings.php:227
+msgid "Save"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:83
+msgid "Theme layout settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:92
+msgid "Global layout settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:95
+msgid "Background Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:96
+#: ../oc-content/themes/sofia/admin/settings.php:125
+#: ../oc-content/themes/sofia/admin/settings.php:151
+#: ../oc-content/themes/sofia/admin/settings.php:177
+msgid "Default: #FFFFFF"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:101
+msgid "Publich button settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:104
+#: ../oc-content/themes/sofia/admin/settings.php:140
+#: ../oc-content/themes/sofia/admin/settings.php:166
+msgid "Background Top Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:105
+msgid "Default: #50B7D1"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:109
+#: ../oc-content/themes/sofia/admin/settings.php:145
+#: ../oc-content/themes/sofia/admin/settings.php:171
+msgid "Background Bottom Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:110
+msgid "Default: #286DA3"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:114
+msgid "Hover Background Top Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:115
+msgid "Default: #66C7E5"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:119
+msgid "Hover Background Bottom Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:120
+msgid "Default: #328FC9"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:124
+#: ../oc-content/themes/sofia/admin/settings.php:150
+#: ../oc-content/themes/sofia/admin/settings.php:176
+msgid "Text Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:129
+#: ../oc-content/themes/sofia/admin/settings.php:155
+#: ../oc-content/themes/sofia/admin/settings.php:181
+msgid "Border Color"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:130
+msgid "Default: #51A0B3"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:137
+msgid "Search button settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:141
+msgid "Default: #5BC0DE"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:146
+msgid "Default: #339BB9"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:156
+msgid "Default: #22687D"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:163
+msgid "Contact & Send to friend button settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:167
+msgid "Default: #62C462"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:172
+msgid "Default: #57A957"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:182
+msgid "Default: #3D773D"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:197
+msgid "Banner settings"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:204
+msgid "Enable Google Adsense Banners"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:207
+msgid "When enabled, bellow banners will be shown in front page."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:211
+#: ../oc-content/themes/sofia/admin/settings.php:221
+msgid "Home Page Banner Code"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:212
+msgid "Will be shown at bottom of home page, recommended is responsive banner with width 1200px"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:216
+msgid "Search Page Banner Code"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:217
+msgid "Will be shown in left sidebar on search page, recommended is responsive banner with width 270px"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:222
+msgid "Will be shown in right sidebar on item page, recommended is responsive banner with width 360px"
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:240
+msgid "Text that will be shown as placeholder in search box in header. Can be i.e. \"Samsung Galaxy S7...\""
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:241
+msgid "Leave blank to disable contact email. This email will be shown in theme footer."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:242
+msgid "Check to use default logo of osclass in case, you did not upload any other logo yet. Otherwise simple text with name of your classifieds will be shown instead of logo."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:243
+msgid "Use new Drag & Drop image uploader instead old one. Note that it is required to have osclass version 3.3 or higher."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:244
+msgid "Share links will be shown in footer of theme."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:245
+msgid "When set to Yes, facebook like button with counter will be shown next to Publish button in header."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:247
+msgid "Check if you want to enable Google Adsense banners on your site. You can define code for banner in bellow boxes."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:248
+msgid "Will be shown at bottom of home page, recommended is responsive banner with width 1200px."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:249
+msgid "Will be shown in left sidebar on search/category page, recommended is responsive banner with width 270px."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:250
+msgid "Will be shown in right sidebar on listings page, recommended is responsive banner with width 360px."
+msgstr ""
+
+#: ../oc-content/themes/sofia/admin/settings.php:253
+msgid "Leave blank to use default values. In each section fill all or no values. If you fill just one and other leave blank, it can break design. Use full color codes, i.e. #000000 (not #000)."
+msgstr ""

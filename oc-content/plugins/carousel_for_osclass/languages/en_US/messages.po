@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Carousel for OSClass\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-05 11:39+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JChapman <siouxfallsrummages@gmail.com>\n"
+"Language-Team: MB Themes <michal.brezak@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:68 displayAdmin.php:85
+msgid "Settings Saved"
+msgstr ""
+
+#: admin.php:81
+msgid "Carousel for Osclass Preferences"
+msgstr ""
+
+#: admin.php:83
+msgid "Enable auto scrolling"
+msgstr ""
+
+#: admin.php:85 admin.php:96 admin.php:102 admin.php:108 admin.php:115
+#: admin.php:122 displayAdmin.php:115
+msgid "No"
+msgstr ""
+
+#: admin.php:86 admin.php:97 admin.php:103 admin.php:109 admin.php:116
+#: admin.php:123 displayAdmin.php:116
+msgid "Yes"
+msgstr ""
+
+#: admin.php:90
+msgid "Number of seconds to delay scrolling (Default is 2800) "
+msgstr ""
+
+#: admin.php:94
+msgid "Display premium ads only"
+msgstr ""
+
+#: admin.php:100
+msgid "Display ads in a random order?"
+msgstr ""
+
+#: admin.php:106
+msgid "Show ads with pictures only"
+msgstr ""
+
+#: admin.php:113
+msgid "Enable Price"
+msgstr ""
+
+#: admin.php:120
+msgid "Enable Arrows"
+msgstr ""
+
+#: admin.php:127 displayAdmin.php:143
+msgid "Save"
+msgstr ""
+
+#: admin.php:130
+msgid "Version"
+msgstr ""
+
+#: admin.php:132 displayAdmin.php:150
+msgid "Click here to finish update"
+msgstr ""
+
+#: carousel_detail.php:68
+msgid "Premium listings"
+msgstr ""
+
+#: carousel_detail.php:130
+msgid "No items to display"
+msgstr ""
+
+#: displayAdmin.php:98
+msgid "Carousel for Osclass Display Preferences"
+msgstr ""
+
+#: displayAdmin.php:100
+msgid "Number of items to display at one time"
+msgstr ""
+
+#: displayAdmin.php:110
+msgid "Limit the number of items to load into the carousel (Default is 15) "
+msgstr ""
+
+#: displayAdmin.php:111
+msgid "(0 = no limit)"
+msgstr ""
+
+#: displayAdmin.php:113
+msgid "Display the carousel vertically"
+msgstr ""
+
+#: displayAdmin.php:121
+msgid "Width in pixel's (Default is 718) "
+msgstr ""
+
+#: displayAdmin.php:124
+msgid "Height in pixel's (Default is 120) "
+msgstr ""
+
+#: displayAdmin.php:129
+msgid "Ad Slide Width in pixel's (Default is 140) "
+msgstr ""
+
+#: displayAdmin.php:132
+msgid "Ad Slide Height in pixel's (Default is 110) "
+msgstr ""
+
+#: displayAdmin.php:136
+msgid "Background Color (Default is #E9F5F9) "
+msgstr ""
+
+#: displayAdmin.php:139
+msgid "Hover Color (Default is #94CEE4) "
+msgstr ""
+
+#: help.php:28
+msgid "Carousel for Osclass Help"
+msgstr ""
+
+#: help.php:31
+msgid "What is Carousel for Osclass Plugin?"
+msgstr ""
+
+#: help.php:34
+msgid ""
+"Carousel for Osclass is an easy to use plugin to display the latest ads "
+"submitted on your Osclass Installation. Your visitors will get a very quick "
+"overview of the ads on your site."
+msgstr ""
+
+#: help.php:37
+msgid "How does Carousel for Osclass plugin work?"
+msgstr ""
+
+#: help.php:40
+msgid ""
+"In order to use Carousel for Osclass plugin, you should edit your theme file "
+"<b>main.php</b> and add the following line anywhere in the code you want the "
+"carousel to display."
+msgstr ""
+
+#: help.php:46
+msgid "Could I cutomize the style of Carousel for Osclass plugin?"
+msgstr ""
+
+#: help.php:49
+msgid "You can configure the layout under configure Display."
+msgstr ""
+
+#: help.php:52
+msgid "The plugin is compatible with Osclass version 2.1 and up."
+msgstr ""
+
+#: help.php:55
+msgid "Created by Sultan Semlali and JChapman using Jquery."
+msgstr ""
+
+#: index.php:296 index.php:303 index.php:347
+msgid "Configure"
+msgstr ""
+
+#: index.php:297 index.php:304 index.php:348
+msgid "Configure Display"
+msgstr ""
+
+#: index.php:298 index.php:305 index.php:349
+msgid "F.A.Q. / Help"
+msgstr ""
+
+#: index.php:346
+msgid "Carousel for OSClass"
+msgstr ""
+
+#: search_carousel_detail.php:19
+msgid "Premium Ad"
+msgstr ""
+
+#: update.php:7
+msgid "The Carousel is up to date"
+msgstr ""
+
+#: update.php:41
+msgid "Carousel Updated to version"
+msgstr ""
