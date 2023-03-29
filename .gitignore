@@ -3,3 +3,4 @@
 /oc-includes/vendor/*
 /dockerTender/*
 /.idea/*
+/config.php
