@@ -32,7 +32,7 @@
   osc_enqueue_style('tabs', osc_current_web_theme_url('css/tabs.css'));
   osc_enqueue_style('jquery_menu', osc_base_url() . 'oc-content/plugins/jquery_menu/jquery_menu.css');
   osc_enqueue_style('font-awesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-  osc_enqueue_style('fancybox', osc_assets_url('css/jquery.fancybox.min.css'));
+  osc_enqueue_style('fancybox', osc_assets_url('css/jquery.fancybox.css'));
 
 ?>
 
