@@ -367,7 +367,6 @@ function osc_doRequest($url, $_data) {
  * @return bool
  */
 function osc_sendMail($params) {
-    echo 4;
   // DO NOT send mail if it's a demo
   if (defined('DEMO')) {
     return false;
