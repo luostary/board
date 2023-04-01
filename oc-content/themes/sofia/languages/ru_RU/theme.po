@@ -5,7 +5,7 @@ msgstr ""
 "Language: ru_RU\n"
 "Language-Team: Osclass Core\n"
 "Last-Translator: Administrator <luostary@bk.ru>\n"
-"PO-Revision-Date: 2023-04-01 21:38:07\n"
+"PO-Revision-Date: 2023-04-01 21:54:00\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Domain: sofia\n"
 "X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/alert-form.php:6
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "Вы успешно подписались на оповещение"
 
 #: ../oc-content/themes/sofia/alert-form.php:7
 #: ../oc-content/themes/sofia/user-change_email.php:23
@@ -571,7 +571,7 @@ msgstr ""
 #: ../oc-content/themes/sofia/user-items.php:54
 #: ../oc-content/themes/sofia/user-profile.php:152
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: ../oc-content/themes/sofia/item.php:146
 msgid "Leave your comment or feedback"
@@ -630,7 +630,7 @@ msgstr "Локация"
 #: ../oc-content/themes/sofia/user-profile.php:97
 #: ../oc-content/themes/sofia/user-public-profile.php:94
 msgid "Website"
-msgstr ""
+msgstr "Веб-сайт"
 
 #: ../oc-content/themes/sofia/item.php:293
 msgid "Send to friend"
@@ -857,15 +857,15 @@ msgstr ""
 #: ../oc-content/themes/sofia/user-items.php:13
 #: ../oc-content/themes/sofia/user-profile.php:19
 msgid "User account manager"
-msgstr ""
+msgstr "Управление аккаунтом"
 
 #: ../oc-content/themes/sofia/user-alerts.php:21
 msgid "Your alerts"
-msgstr ""
+msgstr "Ваши оповещения"
 
 #: ../oc-content/themes/sofia/user-alerts.php:23
 msgid "You do not have any alerts yet"
-msgstr ""
+msgstr "У вас пока нет оповещений"
 
 #: ../oc-content/themes/sofia/user-alerts.php:28
 msgid "Alert"
@@ -947,7 +947,7 @@ msgstr ""
 #: ../oc-content/themes/sofia/user-change_username.php:77
 #: ../oc-content/themes/sofia/user-profile.php:39
 msgid "Username"
-msgstr ""
+msgstr "Логин"
 
 #: ../oc-content/themes/sofia/user-change_username.php:81
 msgid "WARNING: Once set, you will not be able to change your username again. Choose wisely."
@@ -972,7 +972,7 @@ msgstr ""
 #: ../oc-content/themes/sofia/user-dashboard.php:32
 #: ../oc-content/themes/sofia/user-items.php:53
 msgid "Edit"
-msgstr ""
+msgstr "Правка"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:34
 msgid "Activate"
@@ -980,15 +980,15 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/user-dashboard.php:43
 msgid "You have"
-msgstr ""
+msgstr "У Вас"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:43
 msgid "alerts, you can check them in section"
-msgstr ""
+msgstr "оповещений, вы можете проверить их в разделе"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:43
 msgid "Manage your alerts"
-msgstr ""
+msgstr "Управление оповещениями"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:50
 msgid "You profile is not complete!"
@@ -996,7 +996,7 @@ msgstr "Ваш профиль заполнен не полностью"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:51
 msgid "We found that your profile is still not complete! Take a minute and enter as much information as possible, this will help you sell your stuffs faster."
-msgstr ""
+msgstr "Мы обнаружили, что ваш профиль все еще не заполнен! Уделите минутку и введите как можно больше информации, это поможет вам быстрее продавать свои товары."
 
 #: ../oc-content/themes/sofia/user-dashboard.php:53
 msgid "No phone number was entered. You should enter at least 1 phone number to your mobile or land phone"
@@ -1008,19 +1008,19 @@ msgstr "Не указан веб-сайт"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:55
 msgid "Country was not entered"
-msgstr ""
+msgstr "Страна не указана"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:56
 msgid "Region was not entered"
-msgstr ""
+msgstr "Регион не указан"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:57
 msgid "City was not entered"
-msgstr ""
+msgstr "Город не указан"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:58
 msgid "Address was not entered"
-msgstr ""
+msgstr "Адрес не указан"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:62
 msgid "Your profile is complete!"
@@ -1037,11 +1037,11 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/user-items.php:20
 msgid "Your listings"
-msgstr ""
+msgstr "Ваши объявления"
 
 #: ../oc-content/themes/sofia/user-items.php:21
 msgid "Post a new listing"
-msgstr ""
+msgstr "Опубликовать новое объявление"
 
 #: ../oc-content/themes/sofia/user-items.php:24
 msgid "You don't have any listings yet"
@@ -1086,35 +1086,35 @@ msgstr "Быстрый контакт с продавцом"
 
 #: ../oc-content/themes/sofia/user-profile.php:26
 msgid "Update your profile"
-msgstr ""
+msgstr "Редактирование профиля"
 
 #: ../oc-content/themes/sofia/user-profile.php:43
 msgid "Modify username"
-msgstr ""
+msgstr "Изменить логин"
 
 #: ../oc-content/themes/sofia/user-profile.php:52
 msgid "Modify e-mail"
-msgstr ""
+msgstr "Изменить почту"
 
 #: ../oc-content/themes/sofia/user-profile.php:53
 msgid "Modify password"
-msgstr ""
+msgstr "Изменить пароль"
 
 #: ../oc-content/themes/sofia/user-profile.php:57
 msgid "User type"
-msgstr ""
+msgstr "Тип учетной записи"
 
 #: ../oc-content/themes/sofia/user-profile.php:61
 msgid "Mobile phone"
-msgstr ""
+msgstr "Мобильный телефон"
 
 #: ../oc-content/themes/sofia/user-profile.php:65
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: ../oc-content/themes/sofia/user-profile.php:101
 msgid "Information"
-msgstr ""
+msgstr "Информация"
 
 #: ../oc-content/themes/sofia/user-profile.php:108
 msgid "Delete my account"
