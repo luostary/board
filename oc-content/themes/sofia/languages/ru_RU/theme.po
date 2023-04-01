@@ -5,7 +5,7 @@ msgstr ""
 "Language: ru_RU\n"
 "Language-Team: Osclass Core\n"
 "Last-Translator: Administrator <luostary@bk.ru>\n"
-"PO-Revision-Date: 2023-02-19 00:33:13\n"
+"PO-Revision-Date: 2023-04-01 21:38:07\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Domain: sofia\n"
 "X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
@@ -223,15 +223,15 @@ msgstr "Сменить метоположение"
 #: ../oc-content/themes/sofia/header.php:56
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Привет, %s"
 
 #: ../oc-content/themes/sofia/header.php:61
 msgid "My account"
-msgstr ""
+msgstr "Личный кабинет"
 
 #: ../oc-content/themes/sofia/header.php:65
 msgid "Logout"
-msgstr ""
+msgstr "Выйти"
 
 #: ../oc-content/themes/sofia/header.php:69
 #: ../oc-content/themes/sofia/header.php:74
@@ -955,15 +955,15 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/user-dashboard.php:18
 msgid "Hello"
-msgstr ""
+msgstr "Привет"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:18
 msgid "welcome to your account"
-msgstr ""
+msgstr "добро пожаловать в личный кабинет"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:20
 msgid "Your latest listings"
-msgstr ""
+msgstr "Ваши последние объявления"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:22
 msgid "No listings have been added yet"
@@ -992,7 +992,7 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/user-dashboard.php:50
 msgid "You profile is not complete!"
-msgstr ""
+msgstr "Ваш профиль заполнен не полностью"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:51
 msgid "We found that your profile is still not complete! Take a minute and enter as much information as possible, this will help you sell your stuffs faster."
@@ -1000,11 +1000,11 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/user-dashboard.php:53
 msgid "No phone number was entered. You should enter at least 1 phone number to your mobile or land phone"
-msgstr ""
+msgstr "Номер телефона не указан. Необходимо ввести как минимум 1 номер телефона. Мобильный или стационарный"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:54
 msgid "You did not entered your website"
-msgstr ""
+msgstr "Не указан веб-сайт"
 
 #: ../oc-content/themes/sofia/user-dashboard.php:55
 msgid "Country was not entered"
