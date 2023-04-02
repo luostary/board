@@ -270,8 +270,13 @@
               $loc = implode(', ', $loc);
             ?>
 
-            <?php if($loc <> '') { ?><div class="left"><i class="fa fa-truck"></i><?php _e('Location', 'sofia'); ?></div><div class="right"><?php echo $loc; ?></div><div class="swap"></div><?php } ?>
-            <?php if(osc_user_website() != '' and osc_user_website() <> 'http://') { ?><div class="left"><i class="fa fa-link"></i><?php _e('Website', 'sofia'); ?></div><div class="right"><?php echo '<a href="' . osc_user_website() . '" title="' . osc_esc_html(osc_user_website()) . '" class="url-user" target="_blank" rel="nofollow">' . osc_user_website() . '</a>'; ?></div><?php } ?>
+              <?php if($loc <> '') { ?><div class="left"><i class="fa fa-truck"></i><?php _e('Location', 'sofia'); ?></div><div class="right"><?php echo $loc; ?></div><div class="swap"></div><?php } ?>
+              <div class="left"><i class="fa fa-telegram"></i>
+                  <?php _e('Telegram', 'sofia'); ?></div>
+              <div class="right"><a target="_blank" href="<?= osc_item_contact_other(); ?>"><?= osc_item_contact_other(); ?></a></div>
+              <div class="swap"></div>
+
+              <?php if(osc_user_website() != '' and osc_user_website() <> 'http://') { ?><div class="left"><i class="fa fa-link"></i><?php _e('Website', 'sofia'); ?></div><div class="right"><?php echo '<a href="' . osc_user_website() . '" title="' . osc_esc_html(osc_user_website()) . '" class="url-user" target="_blank" rel="nofollow">' . osc_user_website() . '</a>'; ?></div><?php } ?>
 
             <?php if (function_exists('seller_post') && osc_item_user_id() <> 0) { ?>
               <div class="text"><?php seller_post(); ?></a></div>
