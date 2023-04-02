@@ -402,7 +402,7 @@ h3.mobile-show {position:relative;cursor:pointer}
 #home-title .left {margin-left:35px;}
 #home-title .right {margin-left: 190px;}
 
-#home-search {text-align:center;height:217px;float:left;margin-top:10px;width:230px;background-color:#F2F2F2;margin-bottom:20px;padding:10px;min-height:20px;border:1px solid #ccc;border-bottom-color:#bbb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-webkit-transition:0.1s linear all;-moz-transition:0.1s linear all;-ms-transition:0.1s linear all;-o-transition:0.1s linear all;transition:0.1s linear all;clear:both;display:block;}
+#home-search {text-align:center;float:left;margin-top:10px;width:230px;background-color:#F2F2F2;margin-bottom:20px;padding:10px;min-height:20px;border:1px solid #ccc;border-bottom-color:#bbb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-webkit-transition:0.1s linear all;-moz-transition:0.1s linear all;-ms-transition:0.1s linear all;-o-transition:0.1s linear all;transition:0.1s linear all;clear:both;display:block;}
 #home-search .fa-search {font-size:13px;margin:-1px 0 0 0;}
 #home-search .text {color: #6A6A6A;font-weight:bold;font-size:13px;margin-top:5px;float:left;width:100%;text-align:center;}
 #home-search .text .fa {font-size:14px;color:#333;}
