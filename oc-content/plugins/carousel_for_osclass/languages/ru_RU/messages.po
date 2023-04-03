@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru_RU\n"
+"Language-Team: Osclass Core\n"
+"Last-Translator: Administrator <luostary@bk.ru>\n"
+"PO-Revision-Date: 2023-04-03 19:56:23\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Domain: carousel_for_osclass\n"
+"X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;_e;_m;_n;_mn\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:68
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:85
+msgid "Settings Saved"
+msgstr "Настройки сохранены"
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:81
+msgid "Carousel for Osclass Preferences"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:83
+msgid "Enable auto scrolling"
+msgstr "Автоскрол"
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:85
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:96
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:102
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:108
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:115
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:122
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:115
+msgid "No"
+msgstr "Нет"
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:86
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:97
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:103
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:109
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:116
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:123
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:116
+msgid "Yes"
+msgstr "Да"
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:90
+msgid "Number of seconds to delay scrolling (Default is 2800) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:94
+msgid "Display premium ads only"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:100
+msgid "Display ads in a random order?"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:106
+msgid "Show ads with pictures only"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:113
+msgid "Enable Price"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:120
+msgid "Enable Arrows"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:127
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:143
+msgid "Save"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:130
+msgid "Version"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/admin.php:132
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:150
+msgid "Click here to finish update"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/carousel_detail.php:68
+msgid "Premium listings"
+msgstr "Премиум объявления"
+
+#: ../oc-content/plugins/carousel_for_osclass/carousel_detail.php:130
+msgid "No items to display"
+msgstr "Нет элементов"
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:98
+msgid "Carousel for Osclass Display Preferences"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:100
+msgid "Number of items to display at one time"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:110
+msgid "Limit the number of items to load into the carousel (Default is 15) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:111
+msgid "(0 = no limit)"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:113
+msgid "Display the carousel vertically"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:121
+msgid "Width in pixel's (Default is 718) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:124
+msgid "Height in pixel's (Default is 120) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:129
+msgid "Ad Slide Width in pixel's (Default is 140) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:132
+msgid "Ad Slide Height in pixel's (Default is 110) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:136
+msgid "Background Color (Default is #E9F5F9) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/displayAdmin.php:139
+msgid "Hover Color (Default is #94CEE4) "
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:28
+msgid "Carousel for Osclass Help"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:31
+msgid "What is Carousel for Osclass Plugin?"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:34
+msgid "Carousel for Osclass is an easy to use plugin to display the latest ads submitted on your Osclass Installation. Your visitors will get a very quick overview of the ads on your site."
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:37
+msgid "How does Carousel for Osclass plugin work?"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:40
+msgid "In order to use Carousel for Osclass plugin, you should edit your theme file <b>main.php</b> and add the following line anywhere in the code you want the carousel to display."
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:46
+msgid "Could I cutomize the style of Carousel for Osclass plugin?"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:49
+msgid "You can configure the layout under configure Display."
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:52
+msgid "The plugin is compatible with Osclass version 2.1 and up."
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/help.php:55
+msgid "Created by Sultan Semlali and JChapman using Jquery."
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/index.php:296
+#: ../oc-content/plugins/carousel_for_osclass/index.php:303
+#: ../oc-content/plugins/carousel_for_osclass/index.php:347
+msgid "Configure"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/index.php:297
+#: ../oc-content/plugins/carousel_for_osclass/index.php:304
+#: ../oc-content/plugins/carousel_for_osclass/index.php:348
+msgid "Configure Display"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/index.php:298
+#: ../oc-content/plugins/carousel_for_osclass/index.php:305
+#: ../oc-content/plugins/carousel_for_osclass/index.php:349
+msgid "F.A.Q. / Help"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/index.php:346
+msgid "Carousel for OSClass"
+msgstr "Карусель объявлений"
+
+#: ../oc-content/plugins/carousel_for_osclass/search_carousel_detail.php:19
+msgid "Premium Ad"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/update.php:7
+msgid "The Carousel is up to date"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/update.php:41
+msgid "Carousel Updated to version"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:26
+msgid "Users not enabled"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:52
+msgid "Your email has been changed successfully"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:55
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:59
+msgid "Sorry, the link is not valid"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:73
+msgid "Alert activated"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:75
+msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:85
+msgid "Unsubscribed correctly"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:87
+msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
+msgstr ""
+
+#: ../oc-content/plugins/carousel_for_osclass/user-non-secure.php:129
+msgid "The Recaptcha code is wrong"
+msgstr ""

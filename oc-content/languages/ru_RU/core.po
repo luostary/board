@@ -9,7 +9,7 @@ msgstr ""
 "Language-Team: Osclass Core\n"
 "Last-Translator: Administrator <luostary@bk.ru>\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2023-02-18 23:47:25\n"
+"PO-Revision-Date: 2023-04-04 01:04:35\n"
 "POT-Creation-Date: 2022-01-03 12:22+0100\n"
 "Project-Id-Version: Osclass by OsclassPoint.com\n"
 "Report-Msgid-Bugs-To: https://osclass-classifieds.com/\n"
@@ -8063,12 +8063,12 @@ msgstr "Выбрать"
 
 #: oc-includes/osclass/frm/Field.form.class.php:299
 msgid "from"
-msgstr "для"
+msgstr "от"
 
 #: oc-includes/osclass/frm/Field.form.class.php:304
 #: oc-includes/osclass/helpers/hItems.php:1295
 msgid "to"
-msgstr "в"
+msgstr "до"
 
 #: oc-includes/osclass/frm/Form.form.class.php:63
 msgid "No value"
@@ -8488,7 +8488,7 @@ msgstr "Не указана"
 
 #: oc-includes/osclass/helpers/hItems.php:1294
 msgid "From"
-msgstr "Для"
+msgstr "От"
 
 #: oc-includes/osclass/helpers/hPagination.php:167
 msgid "Page"

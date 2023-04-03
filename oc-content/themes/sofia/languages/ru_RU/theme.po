@@ -5,7 +5,7 @@ msgstr ""
 "Language: ru_RU\n"
 "Language-Team: Osclass Core\n"
 "Last-Translator: Administrator <luostary@bk.ru>\n"
-"PO-Revision-Date: 2023-04-02 21:14:35\n"
+"PO-Revision-Date: 2023-04-03 19:40:16\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Domain: sofia\n"
 "X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
@@ -813,7 +813,7 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/search_list.php:6
 msgid "Premium listings"
-msgstr ""
+msgstr "Премиум объявления"
 
 #: ../oc-content/themes/sofia/search_list.php:25
 #: ../oc-content/themes/sofia/user-dashboard.php:28
