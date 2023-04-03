@@ -469,6 +469,9 @@ class CWebSearch extends BaseModel {
       foreach($custom_fields as $key => $aux) {
         if(in_array($key, $fields)) {
           $field = Field::newInstance()->findByPrimaryKey($key);
+          if (substr_count($field['s_slug'], '_range')) {
+              $field['e_type'] = 'INTERVAL';
+          }
           switch ($field['e_type']) {
             case 'TEXTAREA':
             case 'TEXT':
@@ -519,6 +522,7 @@ class CWebSearch extends BaseModel {
               break;
               
             case 'DATEINTERVAL':
+            case 'INTERVAL':
               if(is_array($aux) && (!empty($aux['from']) && !empty($aux['to']))) {
                 $from = $aux['from'];
                 $to = $aux['to'];
@@ -526,10 +530,10 @@ class CWebSearch extends BaseModel {
                 $end = $to;
                 $sql = "SELECT fk_i_item_id FROM $table WHERE ";
                 $sql .= $table.'.fk_i_field_id = '.$key.' AND ';
-                $sql .= $start . ' >= ' . $table . ".s_value AND s_multi = 'from'";
+                $sql .= $start . ' <= ' . $table . ".s_value AND s_multi = 'from'";
                 $sql1 = "SELECT fk_i_item_id FROM $table WHERE ";
                 $sql1 .= $table . '.fk_i_field_id = ' . $key . ' AND ';
-                $sql1 .= $end . ' <= ' . $table . ".s_value AND s_multi = 'to'";
+                $sql1 .= $end . ' >= ' . $table . ".s_value AND s_multi = 'to'";
                 $sql_interval = 'select a.fk_i_item_id from (' . $sql . ') a where a.fk_i_item_id IN (' . $sql1 . ')';
                 $this->mSearch->addConditions(DB_TABLE_PREFIX.'t_item.pk_i_id IN ('.$sql_interval.')');
               }

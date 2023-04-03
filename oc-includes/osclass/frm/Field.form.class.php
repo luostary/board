@@ -177,7 +177,7 @@ FB;
   public static function meta( $field = null , $search = false ) {
     if($field!=null) {
       // date interval
-      if($field['e_type'] === 'DATEINTERVAL') {
+      if(in_array($field['e_type'], ['DATEINTERVAL', 'INTERVAL'])) {
         $field['s_value'] = array();
         $field['s_value']['from'] = '';
         $field['s_value']['to'] = '';
@@ -289,22 +289,25 @@ FB;
         echo '<input type="text" id="" class="meta_'.$field['s_slug'].' cf_date" value="" />';
         self::initDatePicker( 'meta_' . $field[ 's_slug' ] , osc_date_format() , $field[ 's_value' ] );
 
-      } else if( $field['e_type'] === 'DATEINTERVAL' ) {
+      } else if(in_array($field['e_type'], ['DATEINTERVAL', 'INTERVAL'])) {
         if($search) {
           echo '<h6>'.$field['s_name'].'</h6>';
         } else {
           echo '<label for="meta_'.$field['s_slug'].'">'.$field['s_name'].': </label>';
         }
 
-        echo __('from'). ' ';
+//        echo __('from'). ' ';
         echo '<input type="hidden" id="meta_'.$field['s_slug'].'_from" name="meta['.$field['pk_i_id'].'][from]" value="'.$field['s_value']['from'].'" />';
-        echo '<input type="text" id="" class="meta_'.$field['s_slug'].'_from cf_date_interval" value="" />';
-        self::initDatePicker( 'meta_' . $field[ 's_slug' ] . '_from' , osc_date_format() , $field[ 's_value' ][ 'from' ] , 'from' );
+        echo '<input type="text" id="priceMin" placeholder="' . __('min', 'sofia') . '" class="meta_'.$field['s_slug'].'_from cf_date_interval" value="'.$field['s_value']['from'].'" name="meta['.$field['pk_i_id'].'][from]"/>';
+        if ($field['e_type'] === 'DATEINTERVAL')
+            self::initDatePicker( 'meta_' . $field[ 's_slug' ] . '_from' , osc_date_format() , $field['s_value']['from'] , 'from' );
 
-        echo ' ' . __('to'). ' ';
+//        echo ' ' . __('to'). ' ';
+        echo '<div class="price-del"></div>';
         echo '<input type="hidden" id="meta_'.$field['s_slug'].'_to" name="meta['.$field['pk_i_id'].'][to]" value="'.$field['s_value']['to'].'" />';
-        echo '<input type="text" id="" class="meta_'.$field['s_slug'].'_to cf_date_interval" value="" />';
-        self::initDatePicker( 'meta_' . $field[ 's_slug' ] . '_to' , osc_date_format() , $field[ 's_value' ][ 'to' ] , 'to' );
+        echo '<input type="text" id="priceMax" placeholder="' . __('max', 'sofia') . '" class="meta_'.$field['s_slug'].'_to cf_date_interval" value="'.strval($field['s_value']['to']).'" name="meta['.$field['pk_i_id'].'][to]"/>';
+        if ($field['e_type'] === 'DATEINTERVAL')
+            self::initDatePicker( 'meta_' . $field[ 's_slug' ] . '_to' , osc_date_format() , $field[ 's_value' ][ 'to' ] , 'to' );
 
       } else {
         if($search) {
@@ -345,7 +348,10 @@ FB;
     if(count($aCustomFields)>0) {
       echo '<fieldset>';
       foreach($aCustomFields as $field) {
-        if( $field['e_type'] === 'DATEINTERVAL') {
+        if (substr_count($field['s_slug'], '_range')) {
+          $field['e_type'] = 'INTERVAL';
+        }
+        if( in_array($field['e_type'], ['DATEINTERVAL', 'INTERVAL'])) {
           echo '<div class="row two_input">';
         } else if( $field['e_type'] === 'CHECKBOX') {
           echo '<div class="row checkbox">';
