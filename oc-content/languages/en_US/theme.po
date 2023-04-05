@@ -1,36 +1,42 @@
 # Copyright (C) 2017 Osclass
 # This file is distributed under the same license as the {package-name} package.
+#
 msgid ""
 msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+"Language-Team: Osclass Core\n"
+"Last-Translator: Administrator <luostary@bk.ru>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2023-04-05 22:08:05\n"
+"POT-Creation-Date: 2023-01-25 16:37+0100\n"
 "Project-Id-Version: Osclass by OsclassPoint.com\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-25 16:37+0100\n"
-"PO-Revision-Date: 2023-01-25 16:37+0100\n"
-"Last-Translator: Translations <translations@osclass>\n"
-"Language-Team: OsclassPoint\n"
-"Language: en_US\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.2\n"
-"X-Poedit-KeywordsList: ;__;_e\n"
+"X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
 "X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: oc-includes/osclass/gui\n"
 "X-Poedit-SearchPath-1: oc-content/themes/sigma\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: oc-content/themes/sigma/404.php:27 oc-includes/osclass/gui/404.php:27
+#: oc-content/themes/sigma/404.php:27
+#: oc-includes/osclass/gui/404.php:27
 msgid "404"
 msgstr ""
 
-#: oc-content/themes/sigma/404.php:28 oc-includes/osclass/gui/404.php:28
+#: oc-content/themes/sigma/404.php:28
+#: oc-includes/osclass/gui/404.php:28
 msgid "OOPS! Page Not Found!"
 msgstr ""
 
-#: oc-content/themes/sigma/404.php:29 oc-includes/osclass/gui/404.php:29
+#: oc-content/themes/sigma/404.php:29
+#: oc-includes/osclass/gui/404.php:29
 msgid "Either something get wrong or the page doesn't exist anymore."
 msgstr ""
 
-#: oc-content/themes/sigma/404.php:31 oc-includes/osclass/gui/404.php:31
+#: oc-content/themes/sigma/404.php:31
+#: oc-includes/osclass/gui/404.php:31
 msgid "Take me home"
 msgstr ""
 
@@ -68,9 +74,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/header.php:53
 #: oc-includes/osclass/gui/admin/header.php:53
-msgid ""
-"<strong>Note:</strong> Uploading another logo will overwrite the current "
-"logo."
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/header.php:61
@@ -101,14 +105,12 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/header.php:83
 #: oc-includes/osclass/gui/admin/header.php:83
-msgid ""
-"To make a directory writable under UNIX execute this command from the shell:"
+msgid "To make a directory writable under UNIX execute this command from the shell:"
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:34
 #: oc-includes/osclass/gui/admin/settings.php:34
-msgid ""
-"I would like to contribute to the development of Osclass with a donation of"
+msgid "I would like to contribute to the development of Osclass with a donation of"
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:39
@@ -155,17 +157,12 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:66
 #: oc-includes/osclass/gui/admin/settings.php:66
-msgid ""
-"I want to help Osclass by linking to <a href=\"https://osclass-classifieds."
-"com/\" target=\"_blank\">osclass</a> from my site with the following text:"
+msgid "I want to help Osclass by linking to <a href=\"https://osclass-classifieds.com/\" target=\"_blank\">osclass</a> from my site with the following text:"
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:67
 #: oc-includes/osclass/gui/admin/settings.php:67
-msgid ""
-"This website is proudly using the <a title=\"Osclass web\" href=\"https://"
-"osclass-classifieds.com/\">classifieds scripts</a> software <strong>Osclass</"
-"strong>"
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"https://osclass-classifieds.com/\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:76
@@ -210,16 +207,12 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:110
 #: oc-includes/osclass/gui/admin/settings.php:110
-msgid ""
-"In this section you can configure your site to display ads and start "
-"generating revenue."
+msgid "In this section you can configure your site to display ads and start generating revenue."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:110
 #: oc-includes/osclass/gui/admin/settings.php:110
-msgid ""
-"If you are using an online advertising platform, such as Google Adsense, "
-"copy and paste here the provided code for ads."
+msgid "If you are using an online advertising platform, such as Google Adsense, copy and paste here the provided code for ads."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:116
@@ -229,10 +222,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:120
 #: oc-includes/osclass/gui/admin/settings.php:120
-msgid ""
-"This ad will be shown at the top of your website, next to the site title and "
-"above the search results. Note that the size of the ad has to be 728x90 "
-"pixels."
+msgid "This ad will be shown at the top of your website, next to the site title and above the search results. Note that the size of the ad has to be 728x90 pixels."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:124
@@ -242,10 +232,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:128
 #: oc-includes/osclass/gui/admin/settings.php:128
-msgid ""
-"This ad will be shown on the main site of your website. It will appear both "
-"at the top and bottom of your site homepage. Note that the size of the ad "
-"has to be 728x90 pixels."
+msgid "This ad will be shown on the main site of your website. It will appear both at the top and bottom of your site homepage. Note that the size of the ad has to be 728x90 pixels."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:132
@@ -255,9 +242,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:136
 #: oc-includes/osclass/gui/admin/settings.php:136
-msgid ""
-"This ad will be shown on top of the search results of your site. Note that "
-"the size of the ad has to be 728x90 pixels."
+msgid "This ad will be shown on top of the search results of your site. Note that the size of the ad has to be 728x90 pixels."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:140
@@ -267,9 +252,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:144
 #: oc-includes/osclass/gui/admin/settings.php:144
-msgid ""
-"This ad will be shown among the search results of your site. Note that the "
-"size of the ad has to be 728x90 pixels."
+msgid "This ad will be shown among the search results of your site. Note that the size of the ad has to be 728x90 pixels."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:148
@@ -279,9 +262,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:152
 #: oc-includes/osclass/gui/admin/settings.php:152
-msgid ""
-"This ad will be shown at the right sidebar of your website, on the product "
-"detail page. Note that the size of the ad has to be 300x350 pixels."
+msgid "This ad will be shown at the right sidebar of your website, on the product detail page. Note that the size of the ad has to be 300x350 pixels."
 msgstr ""
 
 #: oc-content/themes/sigma/admin/settings.php:156
@@ -397,11 +378,10 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: oc-content/themes/sigma/footer.php:48 oc-includes/osclass/gui/footer.php:41
+#: oc-content/themes/sigma/footer.php:48
+#: oc-includes/osclass/gui/footer.php:41
 #, php-format
-msgid ""
-"Powered by <a title=\"Osclass classifieds script\" href=\"%s\">best "
-"classifieds scripts</a> osclass"
+msgid "Powered by <a title=\"Osclass classifieds script\" href=\"%s\">best classifieds scripts</a> osclass"
 msgstr ""
 
 #: oc-content/themes/sigma/functions.php:29
@@ -598,57 +578,71 @@ msgstr ""
 msgid "All categories"
 msgstr ""
 
-#: oc-content/themes/sigma/head.php:22 oc-content/themes/sigma/item.php:187
+#: oc-content/themes/sigma/head.php:22
+#: oc-content/themes/sigma/item.php:187
 #: oc-content/themes/sigma/item.php:235
 #: oc-content/themes/sigma/loop-single.php:70
-#: oc-includes/osclass/gui/head.php:22 oc-includes/osclass/gui/item.php:187
+#: oc-includes/osclass/gui/head.php:22
+#: oc-includes/osclass/gui/item.php:187
 #: oc-includes/osclass/gui/item.php:235
 #: oc-includes/osclass/gui/loop-single.php:70
 msgid "Delete"
 msgstr ""
 
-#: oc-content/themes/sigma/head.php:23 oc-includes/osclass/gui/head.php:23
+#: oc-content/themes/sigma/head.php:23
+#: oc-includes/osclass/gui/head.php:23
 msgid "Cancel"
 msgstr ""
 
-#: oc-content/themes/sigma/head.php:72 oc-includes/osclass/gui/head.php:72
+#: oc-content/themes/sigma/head.php:72
+#: oc-includes/osclass/gui/head.php:72
 msgid "Previous image"
 msgstr ""
 
-#: oc-content/themes/sigma/head.php:73 oc-includes/osclass/gui/head.php:73
+#: oc-content/themes/sigma/head.php:73
+#: oc-includes/osclass/gui/head.php:73
 msgid "Next image"
 msgstr ""
 
-#: oc-content/themes/sigma/head.php:74 oc-includes/osclass/gui/head.php:74
+#: oc-content/themes/sigma/head.php:74
+#: oc-includes/osclass/gui/head.php:74
 msgid "Close"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:42 oc-includes/osclass/gui/header.php:42
+#: oc-content/themes/sigma/header.php:42
+#: oc-includes/osclass/gui/header.php:42
 msgid "Home"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:43 oc-content/themes/sigma/header.php:60
-#: oc-includes/osclass/gui/header.php:43 oc-includes/osclass/gui/header.php:60
+#: oc-content/themes/sigma/header.php:43
+#: oc-content/themes/sigma/header.php:60
+#: oc-includes/osclass/gui/header.php:43
+#: oc-includes/osclass/gui/header.php:60
 msgid "Publish Ad"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:48 oc-includes/osclass/gui/header.php:48
+#: oc-content/themes/sigma/header.php:48
+#: oc-includes/osclass/gui/header.php:48
 msgid "My account"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:49 oc-includes/osclass/gui/header.php:49
+#: oc-content/themes/sigma/header.php:49
+#: oc-includes/osclass/gui/header.php:49
 msgid "Logout"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:54 oc-includes/osclass/gui/header.php:54
+#: oc-content/themes/sigma/header.php:54
+#: oc-includes/osclass/gui/header.php:54
 msgid "Register"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:82 oc-includes/osclass/gui/header.php:82
+#: oc-content/themes/sigma/header.php:82
+#: oc-includes/osclass/gui/header.php:82
 msgid "What are you looking for today?"
 msgstr ""
 
-#: oc-content/themes/sigma/header.php:87 oc-includes/osclass/gui/header.php:87
+#: oc-content/themes/sigma/header.php:87
+#: oc-includes/osclass/gui/header.php:87
 msgid "Keyword"
 msgstr ""
 
@@ -664,9 +658,10 @@ msgstr ""
 #: oc-includes/osclass/gui/header.php:93
 #: oc-includes/osclass/gui/item-post.php:62
 msgid "Select a category"
-msgstr ""
+msgstr "Выберите категорию"
 
-#: oc-content/themes/sigma/header.php:98 oc-includes/osclass/gui/header.php:98
+#: oc-content/themes/sigma/header.php:98
+#: oc-includes/osclass/gui/header.php:98
 msgid "Search"
 msgstr ""
 
@@ -872,9 +867,11 @@ msgid "Other"
 msgstr ""
 
 #: oc-content/themes/sigma/item-sidebar.php:74
-#: oc-content/themes/sigma/item.php:121 oc-content/themes/sigma/item.php:126
+#: oc-content/themes/sigma/item.php:121
+#: oc-content/themes/sigma/item.php:126
 #: oc-includes/osclass/gui/item-sidebar.php:74
-#: oc-includes/osclass/gui/item.php:121 oc-includes/osclass/gui/item.php:126
+#: oc-includes/osclass/gui/item.php:121
+#: oc-includes/osclass/gui/item.php:126
 msgid "Contact seller"
 msgstr ""
 
@@ -890,8 +887,7 @@ msgstr ""
 
 #: oc-content/themes/sigma/item-sidebar.php:92
 #: oc-includes/osclass/gui/item-sidebar.php:92
-msgid ""
-"You must log in or register a new account in order to contact the advertiser"
+msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr ""
 
 #: oc-content/themes/sigma/item-sidebar.php:109
@@ -923,36 +919,33 @@ msgstr ""
 
 #: oc-content/themes/sigma/item-sidebar.php:147
 #: oc-includes/osclass/gui/item-sidebar.php:147
-msgid ""
-"Never pay with Western Union, Moneygram or other anonymous payment services"
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
 msgstr ""
 
 #: oc-content/themes/sigma/item-sidebar.php:148
 #: oc-includes/osclass/gui/item-sidebar.php:148
-msgid ""
-"Don't buy or sell outside of your country. Don't accept cashier cheques from "
-"outside your country"
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
 msgstr ""
 
 #: oc-content/themes/sigma/item-sidebar.php:149
 #: oc-includes/osclass/gui/item-sidebar.php:149
-msgid ""
-"This site is never involved in any transaction, and does not handle "
-"payments, shipping, guarantee transactions, provide escrow services, or "
-"offer \"buyer protection\" or \"seller certification\""
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:60 oc-includes/osclass/gui/item.php:60
+#: oc-content/themes/sigma/item.php:60
+#: oc-includes/osclass/gui/item.php:60
 #, php-format
 msgid "<strong class=\"publish\">Published date:</strong> %1$s"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:61 oc-includes/osclass/gui/item.php:61
+#: oc-content/themes/sigma/item.php:61
+#: oc-includes/osclass/gui/item.php:61
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:64 oc-includes/osclass/gui/item.php:64
+#: oc-content/themes/sigma/item.php:64
+#: oc-includes/osclass/gui/item.php:64
 msgid "Location"
 msgstr ""
 
@@ -963,74 +956,94 @@ msgstr ""
 msgid "Edit item"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:84 oc-content/themes/sigma/item.php:89
-#: oc-includes/osclass/gui/item.php:84 oc-includes/osclass/gui/item.php:89
+#: oc-content/themes/sigma/item.php:84
+#: oc-content/themes/sigma/item.php:89
+#: oc-includes/osclass/gui/item.php:84
+#: oc-includes/osclass/gui/item.php:89
 msgid "Image"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:127 oc-includes/osclass/gui/item.php:127
+#: oc-content/themes/sigma/item.php:127
+#: oc-includes/osclass/gui/item.php:127
 msgid "Share"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:138 oc-includes/osclass/gui/item.php:138
+#: oc-content/themes/sigma/item.php:138
+#: oc-includes/osclass/gui/item.php:138
 msgid "Related listings"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:153 oc-includes/osclass/gui/item.php:153
+#: oc-content/themes/sigma/item.php:153
+#: oc-includes/osclass/gui/item.php:153
 msgid "Comments"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:166 oc-content/themes/sigma/item.php:214
-#: oc-includes/osclass/gui/item.php:166 oc-includes/osclass/gui/item.php:214
+#: oc-content/themes/sigma/item.php:166
+#: oc-content/themes/sigma/item.php:214
+#: oc-includes/osclass/gui/item.php:166
+#: oc-includes/osclass/gui/item.php:214
 msgid "by"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:180 oc-content/themes/sigma/item.php:228
-#: oc-includes/osclass/gui/item.php:180 oc-includes/osclass/gui/item.php:228
+#: oc-content/themes/sigma/item.php:180
+#: oc-content/themes/sigma/item.php:228
+#: oc-includes/osclass/gui/item.php:180
+#: oc-includes/osclass/gui/item.php:228
 #, php-format
 msgid "%d of 5"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:180 oc-includes/osclass/gui/item.php:180
+#: oc-content/themes/sigma/item.php:180
+#: oc-includes/osclass/gui/item.php:180
 msgid "not rated"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:187 oc-content/themes/sigma/item.php:235
-#: oc-includes/osclass/gui/item.php:187 oc-includes/osclass/gui/item.php:235
+#: oc-content/themes/sigma/item.php:187
+#: oc-content/themes/sigma/item.php:235
+#: oc-includes/osclass/gui/item.php:187
+#: oc-includes/osclass/gui/item.php:235
 msgid "Delete your comment"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:199 oc-includes/osclass/gui/item.php:199
+#: oc-content/themes/sigma/item.php:199
+#: oc-includes/osclass/gui/item.php:199
 #, php-format
 msgid "You are replying to: %s"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:199 oc-includes/osclass/gui/item.php:199
+#: oc-content/themes/sigma/item.php:199
+#: oc-includes/osclass/gui/item.php:199
 msgid "Reply"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:251 oc-includes/osclass/gui/item.php:251
+#: oc-content/themes/sigma/item.php:251
+#: oc-includes/osclass/gui/item.php:251
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:281 oc-includes/osclass/gui/item.php:281
+#: oc-content/themes/sigma/item.php:281
+#: oc-includes/osclass/gui/item.php:281
 msgid "Rating"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:297 oc-includes/osclass/gui/item.php:297
+#: oc-content/themes/sigma/item.php:297
+#: oc-includes/osclass/gui/item.php:297
 #, php-format
 msgid "Not available, you have already rated this item %d time(s)"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:310 oc-includes/osclass/gui/item.php:310
+#: oc-content/themes/sigma/item.php:310
+#: oc-includes/osclass/gui/item.php:310
 msgid "Click to post as standard comment and not reply"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:313 oc-includes/osclass/gui/item.php:313
+#: oc-content/themes/sigma/item.php:313
+#: oc-includes/osclass/gui/item.php:313
 msgid "Comment"
 msgstr ""
 
-#: oc-content/themes/sigma/item.php:336 oc-includes/osclass/gui/item.php:336
+#: oc-content/themes/sigma/item.php:336
+#: oc-includes/osclass/gui/item.php:336
 msgid "of"
 msgstr ""
 
@@ -1054,7 +1067,8 @@ msgstr ""
 msgid "This action can not be undone. Are you sure you want to continue?"
 msgstr ""
 
-#: oc-content/themes/sigma/main.php:54 oc-includes/osclass/gui/main.php:54
+#: oc-content/themes/sigma/main.php:54
+#: oc-includes/osclass/gui/main.php:54
 msgid "All locations"
 msgstr ""
 
@@ -1093,15 +1107,18 @@ msgstr ""
 msgid "Refine category"
 msgstr ""
 
-#: oc-content/themes/sigma/search.php:55 oc-includes/osclass/gui/search.php:55
+#: oc-content/themes/sigma/search.php:55
+#: oc-includes/osclass/gui/search.php:55
 msgid "Selected"
 msgstr ""
 
-#: oc-content/themes/sigma/search.php:56 oc-includes/osclass/gui/search.php:56
+#: oc-content/themes/sigma/search.php:56
+#: oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
 msgstr ""
 
-#: oc-content/themes/sigma/search.php:75 oc-includes/osclass/gui/search.php:75
+#: oc-content/themes/sigma/search.php:75
+#: oc-includes/osclass/gui/search.php:75
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr ""
@@ -1111,11 +1128,13 @@ msgstr ""
 msgid "%d - %d of %d listings"
 msgstr ""
 
-#: oc-content/themes/sigma/search.php:82 oc-includes/osclass/gui/search.php:82
+#: oc-content/themes/sigma/search.php:82
+#: oc-includes/osclass/gui/search.php:82
 msgid "Show filters"
 msgstr ""
 
-#: oc-content/themes/sigma/search.php:86 oc-includes/osclass/gui/search.php:86
+#: oc-content/themes/sigma/search.php:86
+#: oc-includes/osclass/gui/search.php:86
 msgid "Sort by"
 msgstr ""
 
@@ -1130,8 +1149,7 @@ msgid "Other searches that may interest you"
 msgstr ""
 
 #: oc-content/themes/sigma/subdomain-navigation.php:42
-msgid ""
-"Join our community to buy and sell from each other everyday around the world."
+msgid "Join our community to buy and sell from each other everyday around the world."
 msgstr ""
 
 #: oc-content/themes/sigma/subdomain-navigation.php:43
