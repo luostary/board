@@ -1511,9 +1511,9 @@ function osc_item_meta_value() {
     }
   } else if($meta['e_type']=="CHECKBOX") {
     if($value==1) {
-      return '<img src="'.osc_current_web_theme_url('images/tick.png').'" alt="" title=""/>';
+      return '<img width="10" src="'.osc_current_web_theme_url('images/tick.png').'" alt="" title=""/>';
     } else {
-      return '<img src="'.osc_current_web_theme_url('images/cross.png').'" alt="" title=""/>';
+      return '<img width="10" src="'.osc_current_web_theme_url('images/cross.png').'" alt="" title=""/>';
     }
   } else if($meta['e_type']=="URL") {
     if($value!='') {
