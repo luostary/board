@@ -5,7 +5,7 @@ msgstr ""
 "Language: ru_RU\n"
 "Language-Team: Osclass Core\n"
 "Last-Translator: Administrator <luostary@bk.ru>\n"
-"PO-Revision-Date: 2023-04-03 19:40:16\n"
+"PO-Revision-Date: 2023-04-05 22:57:44\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Domain: sofia\n"
 "X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
@@ -284,11 +284,11 @@ msgstr ""
 
 #: ../oc-content/themes/sofia/header.php:142
 msgid "Back"
-msgstr ""
+msgstr "Наз."
 
 #: ../oc-content/themes/sofia/header.php:144
 msgid "Select a location"
-msgstr ""
+msgstr "Выберите местопожение"
 
 #: ../oc-content/themes/sofia/header.php:177
 msgid "in"
@@ -338,7 +338,7 @@ msgstr "Категория"
 #: ../oc-content/themes/sofia/main.php:44
 #: ../oc-content/themes/sofia/search.php:113
 msgid "Select a category"
-msgstr ""
+msgstr "Выберите категорию"
 
 #: ../oc-content/themes/sofia/item-edit.php:114
 #: ../oc-content/themes/sofia/item-post.php:119
@@ -615,7 +615,7 @@ msgstr "объявлениях"
 
 #: ../oc-content/themes/sofia/item.php:254
 msgid "registered"
-msgstr ""
+msgstr "польз."
 
 #: ../oc-content/themes/sofia/item.php:265
 msgid "Registered"
@@ -804,7 +804,7 @@ msgstr ""
 #: ../oc-content/themes/sofia/search_gallery.php:2
 #: ../oc-content/themes/sofia/search_list.php:53
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #: ../oc-content/themes/sofia/search_gallery.php:7
 #: ../oc-content/themes/sofia/search_list.php:58
@@ -825,7 +825,7 @@ msgstr ""
 #: ../oc-content/themes/sofia/user-items.php:59
 #: ../oc-content/themes/sofia/user-public-profile.php:139
 msgid "see more details"
-msgstr "подробности"
+msgstr "подробнее"
 
 #: ../oc-content/themes/sofia/search_list.php:39
 #: ../oc-content/themes/sofia/search_list.php:90
@@ -846,7 +846,7 @@ msgstr "фото"
 #: ../oc-content/themes/sofia/user-items.php:63
 #: ../oc-content/themes/sofia/user-public-profile.php:142
 msgid "photo"
-msgstr ""
+msgstr "фото"
 
 #: ../oc-content/themes/sofia/user-alerts.php:13
 #: ../oc-content/themes/sofia/user-change_email.php:44

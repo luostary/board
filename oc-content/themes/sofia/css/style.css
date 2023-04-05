@@ -567,6 +567,9 @@ option.pad { margin-left:10px;}
 
 /* Search form */
 .search input { border:1px solid #b4b4b4; font-size:12px; height: 26px; line-height: 26px; margin-right:10px; padding:0 5px; vertical-align: middle; }
+.search input[type="checkbox"], .search input[type="radio"] { height: 16px; box-shadow: none; -webkit-box-shadow: none; }
+.search .radio { background-color: transparent; }
+.search .row { margin-bottom: 5px; }
 .search input#query { width:375px; }
 .search select { margin-right:10px; }
 .home .search a { display:none; }

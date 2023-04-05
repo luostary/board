@@ -35,11 +35,9 @@
            <p class="desc"><?php echo osc_highlight( strip_tags( osc_premium_description() ), 130); ?></p>
            <p class="go-more">
              <a id="more-link" href="<?php echo osc_premium_url(); ?>">
-              <?php _e('see more details', 'sofia'); ?><?php if (osc_count_premium_resources()>0) { 
-              echo ' ' . __('and', 'sofia') . ' '; 
-              echo osc_count_premium_resources();
-              if(osc_count_premium_resources()>1) { echo ' ' . __('photos', 'sofia'); } else { echo ' ' . __('photo', 'sofia'); } } ?>            
-            </a>
+              <?php _e('see more details', 'sofia'); ?>
+            </a>&nbsp;
+               <span><?php echo osc_count_premium_resources(); echo ' ' . __('photo', 'sofia'); ?></span>
            </p>
          </td>
        </tr>
@@ -86,11 +84,10 @@
            <p class="desc"><?php echo osc_highlight( strip_tags( osc_item_description() ), 130); ?></p>
            <p class="go-more">
              <a id="more-link" href="<?php echo osc_item_url(); ?>">
-               <?php _e('see more details', 'sofia'); ?><?php if (osc_count_premium_resources()>0) { 
-               echo ' ' . __('and', 'sofia') . ' '; 
-               echo osc_count_premium_resources();
-               if(osc_count_premium_resources()>1) { echo ' ' . __('photos', 'sofia'); } else { echo ' ' . __('photo', 'sofia'); } } ?>      
+               <?php _e('see more details', 'sofia'); ?>
              </a>
+               &nbsp;
+               <span><?php echo osc_count_premium_resources(); echo ' ' . __('photo', 'sofia'); ?></span>
            </p>
          </td>
        </tr>
