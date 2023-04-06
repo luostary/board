@@ -5,7 +5,7 @@ msgstr ""
 "Language: ru_RU\n"
 "Language-Team: Osclass Core\n"
 "Last-Translator: Administrator <luostary@bk.ru>\n"
-"PO-Revision-Date: 2023-04-05 22:57:44\n"
+"PO-Revision-Date: 2023-04-06 21:31:18\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Domain: sofia\n"
 "X-Generator: Osclass Core v8.1.1 & PHP Gettext\n"
@@ -432,11 +432,11 @@ msgstr "Показывать мой e-mail"
 #: ../oc-content/themes/sofia/item-edit.php:205
 #: ../oc-content/themes/sofia/item-post.php:208
 msgid "Change your mobile phone number"
-msgstr ""
+msgstr "Сменить номер телефона"
 
 #: ../oc-content/themes/sofia/item-edit.php:222
 msgid "Update listing"
-msgstr ""
+msgstr "Обновить объявление"
 
 #: ../oc-content/themes/sofia/item-edit.php:245
 #: ../oc-content/themes/sofia/item-post.php:244
