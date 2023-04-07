@@ -10,7 +10,7 @@
     <?php osc_current_web_theme_path('header.php'); ?>
     <div class="content user_forms">
       <div class="inner">
-        <h1><i class="fa fa-refresh"></i>&nbps;<?php _e('Recover your password', 'sofia'); ?></h1>
+        <h1><i class="fa fa-refresh"></i>&nbsp;<?php _e('Recover your password', 'sofia'); ?></h1>
         <form action="<?php echo osc_base_url(true); ?>" method="post" >
           <input type="hidden" name="page" value="login" />
           <input type="hidden" name="action" value="forgot_post" />
