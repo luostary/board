@@ -52,8 +52,11 @@ class Pagination
    */
   public function __construct( $params = null )
   {
-    $this->total        = isset($params['total']) ? (int)$params['total'] + 1 : osc_search_total_pages() + 1;
-    $this->selected       = isset($params['selected']) ? $params['selected'] + 1 : osc_search_page() + 1;
+    // Удалить строку когда кол-во объявлений станет оптимальным для полноценной работы
+    $x = ($_GET['page'] == 'search') ? 10 : 1;
+
+    $this->total        = isset($params['total']) ? (int)$params['total'] + 1 : osc_search_total_pages() + $x; // todo delete
+    $this->selected       = isset($params['selected']) ? $params['selected'] + 10 : osc_search_page() + 1;
     $this->class_first    = isset($params['class_first']) ? $params['class_first'] : 'searchPaginationFirst';
     $this->class_last     = isset($params['class_last']) ? $params['class_last'] : 'searchPaginationLast';
     $this->class_prev     = isset($params['class_prev']) ? $params['class_prev'] : 'searchPaginationPrev';
@@ -246,6 +249,10 @@ class Pagination
     foreach($attrs as $k => $v) {
       $att[] = $k . '="' . osc_esc_html($v) . '"';
     }
+
+    // Удалить строку когда кол-во объявлений станет оптимальным для полноценной работы
+    return '<li><span ' . implode(' ', $att) . '>' . $text . '</span></li>'; // need delete
+
     return '<li><a ' . implode(' ', $att) . '>' . $text . '</a></li>';
   }
 
