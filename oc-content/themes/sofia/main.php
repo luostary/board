@@ -16,8 +16,7 @@
         <div id="home-title">
           <span class="left">
             <?php _e('Search in ', 'sofia')?>
-            <?php osc_total_items();?>
-            <?php echo date('d') + 800 + osc_total_items(); ?>
+            <?php echo osc_total_items();?>
             <?php echo ' ' . __('listings', 'sofia'); ?>
           </span>
           <span class="right">

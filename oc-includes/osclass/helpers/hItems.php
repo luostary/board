@@ -1580,7 +1580,14 @@ function osc_total_active_items() {
  * @return string
  */
 function osc_total_items() {
-  return Item::newInstance()->totalItems(null);
+    $res = Item::newInstance()->totalItems(null);
+
+    // Удалить строку когда кол-во объявлений станет оптимальным для полноценной работы
+    if ($res < 1630) {
+        $res += date('d') + 1630;
+    }
+
+    return $res;
 }
 
 /**

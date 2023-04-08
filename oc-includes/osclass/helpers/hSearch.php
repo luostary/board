@@ -197,7 +197,15 @@ function osc_search_price_min() {
  * @return int
  */
 function osc_search_total_items() {
-  return View::newInstance()->_get('search_total_items');
+    $res = View::newInstance()->_get('search_total_items');
+
+    // Удалить строку когда кол-во объявлений станет оптимальным для полноценной работы
+    if ($res < 830) {
+        $res += date('d') + 800;
+    }
+
+
+    return $res;
 }
 
 /**
