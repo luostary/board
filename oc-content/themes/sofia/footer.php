@@ -30,7 +30,7 @@
       <div class="del">.</div><div class="element"><?php echo osc_get_preference('contact_email', 'sofia_theme'); ?></div>
     <?php } ?>
 
-    <div id="cop">&copy; <?php echo date("Y"); ?> Северный кипр</div>
+    <div id="cop">&copy; <?php $yStart = 2023; echo ((date("Y") > $yStart) ? $yStart . ' - ' : '') . date("Y"); ?> Северный кипр</div>
   </div>
 </div>
 <!-- /footer -->
