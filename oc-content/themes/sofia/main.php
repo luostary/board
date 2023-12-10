@@ -120,9 +120,9 @@
         <?php } ?>
 
         <?php if(osc_get_preference('banner_home', 'sofia_theme') == '') { ?>
-          <a href="<?php echo osc_contact_url();?>"><div id="home-ad">Your Ad Here</div></a>
-          <a href="<?php echo osc_contact_url();?>"><div id="home-ad">Your Ad Here</div></a>
-          <a href="<?php echo osc_contact_url();?>"><div id="home-ad">Your Ad Here</div></a>
+<!--          <a href="--><?php //echo osc_contact_url();?><!--"><div id="home-ad">Your Ad Here</div></a>-->
+<!--          <a href="--><?php //echo osc_contact_url();?><!--"><div id="home-ad">Your Ad Here</div></a>-->
+<!--          <a href="--><?php //echo osc_contact_url();?><!--"><div id="home-ad">Your Ad Here</div></a>-->
         <?php } ?>
 
       </div>
