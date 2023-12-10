@@ -186,6 +186,13 @@
                   <?php ItemForm::contact_email_text(); ?>
                 </div>
                 <div class="row">
+                  <label for="otherContact">
+                    <i class="fa fa-telegram"></i>
+                    <?php _e('Telegram', 'sofia'); ?>
+                  </label>
+                  <?php ItemForm::contact_other_text(); ?>
+                </div>
+                <div class="row">
                   <div id="showEmail">
                     <?php ItemForm::show_email_checkbox(); ?>
                   </div>
